@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/conlang/static/css/main.f7a15c5c.chunk.css",
+    "main.js": "/conlang/static/js/main.1f6dd545.chunk.js",
+    "main.js.map": "/conlang/static/js/main.1f6dd545.chunk.js.map",
+    "runtime-main.js": "/conlang/static/js/runtime-main.06700db0.js",
+    "runtime-main.js.map": "/conlang/static/js/runtime-main.06700db0.js.map",
+    "static/js/2.e80f325a.chunk.js": "/conlang/static/js/2.e80f325a.chunk.js",
+    "static/js/2.e80f325a.chunk.js.map": "/conlang/static/js/2.e80f325a.chunk.js.map",
+    "static/js/3.2f1f9f8c.chunk.js": "/conlang/static/js/3.2f1f9f8c.chunk.js",
+    "static/js/3.2f1f9f8c.chunk.js.map": "/conlang/static/js/3.2f1f9f8c.chunk.js.map",
+    "index.html": "/conlang/index.html",
+    "static/css/main.f7a15c5c.chunk.css.map": "/conlang/static/css/main.f7a15c5c.chunk.css.map",
+    "static/js/2.e80f325a.chunk.js.LICENSE.txt": "/conlang/static/js/2.e80f325a.chunk.js.LICENSE.txt",
+    "static/media/fontStyle.module.css": "/conlang/static/media/on_serwal.a8707af0.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06700db0.js",
+    "static/js/2.e80f325a.chunk.js",
+    "static/css/main.f7a15c5c.chunk.css",
+    "static/js/main.1f6dd545.chunk.js"
+  ]
+}
