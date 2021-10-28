@@ -1,0 +1,470 @@
+[
+	{
+		"link": "5MOYD-1546",
+		"text": "Xum²ā āst²oh² kā osēn īt²oh² renī demī.",
+		"phnm": "{ʃu:2}{ma͈:5} {ka͈:5} {o:2}{se͈n:6} {i͈:5}{toʔ:1} {re:2}{ni͈:5} {de:2}{mi͈:5}",
+		"phnt": "",
+		"trns": "We want them to do the work better.",
+		"expl": "I have variously translated 'they' (3rd person plural) with <i>alē</i> and <i>rami</i>, corresponding to masculine and feminine. The more general <i>ītoh</i> has no explicit gender, and should be used for groups where [1] members are of both sexes (e.g. a classroom) and/or [2] the members are too vast or too general to know (e.g. the population of the United States).",
+		"data": [
+			"Ø-xum²-ā                āst²oh² Ø-k-ā                 os-e-:n             īt²oh² ren-ī",
+			"$3sg.$t-want-$npst.$ind $1pl    $3sg.$t-do-$npst.$ind work-$nmz-$absl.$sg $3pl   be_good-$adv"
+		]
+	},
+	{
+		"link": "5MOYD-1545",
+		"text": "kuy sen²yerē Barte Sinpeson ne alsonet²ēn ko SARIN ne sareske Tōkyō ne cisle-tādonle-īcparezēn?",
+		"phnm": "",
+		"phnt": "",
+		"trns": "was Bart Simpson killed in the 1995 Tokyo subway sarin attack.",
+		"expl": "Apparently 'sarin' is an acronym of the names of the discoverers.",
+		"data": [
+			"kuy sen²-y-er-ē               Barte_Sinpeson ne   alsonet²-e-:n         ko     SARIN        ne   sareske-Ø        Tōkyō        ne   cisle+tādonle+īcpar-ez-e-:n",
+			"$q  die-$caus-$pass-$pst.$ind $proper_name   $loc attack-$nmz-$absl.$sg $instr $proper_name $loc subway-$posd.$sg $proper_name $loc 4JF[20]-$ord-$nmz-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1544",
+		"text": "Iseddē notūn mohuahuin imikce.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "The boy remembered the gloves he had left behind.",
+		"expl": "",
+		"data": [
+			"i-sedd-ē                   notu-:n       mohua-huin      i-mik-c-e",
+			"$3pl.$t-remember-$pst.$ind boy-$absl.$sg glove-$absl.$pl $3pl.$t-leave_behind-$prf-$pst.$attr"
+		]
+	},
+	{
+		"link": "5MOYD-1543",
+		"text": "Ōhxudē alen boetlī sū lanahualoszet²ē ko eiht²ēr in cih²quanēn huaī nimē in men nome karrēn.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "He liaised extensively with co-conspirators via phone and email on any and every aspect of the fraud.",
+		"expl": "",
+		"data": [
+			"o-:hxud-ē                  al-en        boetl-ī          sū   la-nahu-alosz-et²-eː               ko     eihte<:>r        in  cih²quan-en     huaī nimē in  men   nome-Ø         karr-e-:n",
+			"$refl.$t-connect-$pst.$ind he-$absl.$sg be_thorough-$adv $all side-be_mutual-plan-$agt-$absl.$pl $instr phone<$absl.$sg> and email-$absl.$sg $top any  and every part-$posd.$sg be_false-$nmz-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1542",
+		"text": "Polhā sū ātuēn mōs.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "He is hanging a pot there.",
+		"expl": "",
+		"data": [
+			"Ø-polh-ā                   sū   ātue-:n        mo<:>s",
+			"$3sg.$t-hang_up-$npst.$ind $all that-$absl.$sg pot<$absl.$sg>"
+		]
+	},
+	{
+		"link": "5MOYD-1541",
+		"text": "Tīen koklēn tālquera ya pah²t²ecyen.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "This is the vomit being prepared for the chicken.",
+		"expl": "The word for 'chicken' is derived from <i>patā</i> 'he taps (it),' via the agentive <i>-t</i> and the diminutive <i>-cy</i>.",
+		"data": [
+			"tī-en          kokl-e-:n            tālqu-er-a               ya   pah²t²ecy-en",
+			"this-$absl.$sg vomit-$nmz-$absl.$sg prepare-$pass-$npst.$ind $dat chicken-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1540",
+		"text": "Mahtē rān meyyān ko dēzēn ya semāhtem²ah².",
+		"phnm": "",
+		"phnt": "",
+		"trns": "She fetched the wood as a favour for my mother.",
+		"expl": "",
+		"data": [
+			"Ø-maht-ē                ra-:n         meyya-:n       ko     dēz-e-:n             ya   se-māhtem²<a>h²",
+			"$3sg.$t-bring-$pst.$ind she-$absl.$sg wood-$absl.$sg $instr serve-$nmz-$absl.$sg $dat $1sg.$t-mother<$posd.$sg>"
+		]
+	},
+	{
+		"link": "5MOYD-1539",
+		"text": "T²ā callē sohā bān ne xim²m²e sox, in tihpesserā semar.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "It's just that there's a hole in the lining of my shoe, and my toe keeps getting caught in it.",
+		"expl": "<i>Mār</i> can mean either 'finger' or 'toe;' specificity is garnered by the construction <i>xumār</i> 'foot-digit.'",
+		"data": [
+			"t²-ā            callē  soh-ā            ba-:n          ne   xim²m²e-Ø        s-ox-Ø                 in  tihp-ess-er-ā                 se-mar-Ø",
+			"$cop-$npst.$ind merely exist-$npst.$ind hole-$absl.$sg $loc lining-$posd.$sg $1sg.$t-shoe-$posd.$sg and ensnare-$hab-$pass-$npst.$ind $1sg.$t-digit-$posd.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1538",
+		"text": "Ya set²ah² salēn ne ten cakquār.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "I am afraid of (this) jaguar.",
+		"expl": "More literally: 'I have a fear of this jaguar'",
+		"data": [
+			"ya   set²ah² sal-e-:n            ne   ten  cakqua<:>r",
+			"$dat $1sg    fear-$nmz-$absl.$sg $loc this jaguar<$absl.$sg>"
+		]
+	},
+	{
+		"link": "5MOYD-1537",
+		"text": "Lāsā Duri in Piankori (ami sar ōdesin) rōhzī ēquinen.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Douri and Fyangori (the two moons) run marking the night.",
+		"expl": "",
+		"data": [
+			"lās-ā          Duri         in  Piankori     ami     sar ōdes-in        rōhz-ī                  ēquin-en",
+			"run-$npst.$ind $proper_name and $proper_name $on.$pl two moon-$absl.$pl $3sg.$t-illuminate-$adv night-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1536",
+		"text": "Tobī-tobē antān alūn.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "The child splashed the water (purposefully and repeatedly).",
+		"expl": "I have no means in Etlatian to express grammatical volition.",
+		"data": [
+			"tob-ī=Ø-tob-ē                         anta-:n         alu-:n",
+			"agitate-$adv=$3sg.$t-$redup-$pst.$ind child-$absl.$sg water-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1535",
+		"text": "Suhocā suloī zūn mīx, cēz nay on ko-tapa bonān ya rairam²ā?",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Milk already has pus in it why do you need a tumor to simulate it?",
+		"expl": "",
+		"data": [
+			"Ø-suhoc-ā                  suloī   zu-:n          mi<:>x         cēz-Ø            nay  on      ko=Ø-tap-a                      bona-:n         ya   Ø-rairam²-ā",
+			"$3sg.$t-possess-$npst.$ind already milk-$absl.$sg pus<$absl.$sg> reason-$posd.$sg $rel $on.$sg $instr=$3sg.$t-need-$npst.$attr tumor-$absl.$sg $dat $3sg.$t-simulate-$npst.$ind"
+		]
+	},
+	{
+		"link": "5MOYD-1534",
+		"text": "Tobē antān alūn (issa-tī assī oxum²i).",
+		"phnm": "",
+		"phnt": "",
+		"trns": "The child splashed the water (perhaps involuntarily).",
+		"expl": "",
+		"data": [
+			"Ø-tob-ē                   anta-:n         alu-:n          issa=t-ī        assī    o-xum²-i-Ø",
+			"$3sg.$t-agitate-$pst.$ind child-$absl.$sg water-$absl.$sg $ncom=$cop-$adv perhaps $refl.$t-want-$abstr-$posd.$sg"
+		]
+	},
+	{
+		"link": "MISC-7",
+		"text": "Melē set²ah² lūtōn ya m²et²ah² ya pacā.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "I gave you the book so that you would read (it).",
+		"expl": "After the last one I had to dwell on whether I'd use a <i>ko</i>-clause or the dative <i>ya</i> to deliniate goals. In the end my preferences fell on the previously establish dative construction. The <i>ko xumi</i> construction may be relexified for formality.",
+		"data": [
+			"Ø-mel-ē                set²ah² lūto-:n        ya   m²et²ah² ya   Ø-pac-ā",
+			"$3sg.$t-give-$pst.$ind $1sg    book-$absl.$sg $dat $2sg     $dat $3sg.$t-read-$npst.$ind"
+		]
+	},
+	{
+		"link": "MISC-6",
+		"text": "Pā cinā īhlā m²enous ya em²asā m²et²ah² on xum²ā em²a.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "But it is enough that you close your eyes so that you can see what you want to see.",
+		"expl": "The original Italian: <i>ma ti basta di chiuder' gli occhi per veder' quel che tu vuoi vedere</i>. From the song by Gino Paoli <i>Basta chiudere gli occhi</i>.",
+		"data": [
+			"pā cin-ā i-:hl-ā o-no<u>s ya Ø-em²-as-ā m²et²ah² on Ø-xum²-ā Ø-em²-a",
+			"butsuffice-$npst.$ind $3pl.$t-close-$npst.$ind $refl.$t-eye<$posd.$pl> $dat $3pl.$t-see-$pot-$npst.$ind $2sg $on.$sg $3sg.$t-want-$npst.$ind $3sg.$t-see-$npst.$attr"
+		]
+	},
+	{
+		"link": "5MOYD-1533",
+		"text": "M²et²ah² itān, inquē sedulleyā.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "You are a legend, and therefore I am envious.",
+		"expl": "Lit. '(it) causes me to be envious'",
+		"data": [
+			"m²et²ah² ita-:n                     inquē     se-dull-ey-ā",
+			"$2sg     legendary_person-$absl.$sg therefore $1sg.$t-be_envious-$caus-$npst.$ind"
+		]
+	},
+	{
+		"link": "5MOYD-1532",
+		"text": "Losaxē sen²yā iratēn.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "He happened to kill an ant.",
+		"expl": "",
+		"data": [
+			"losax-ē         Ø-sen²-y-ā                   irate-:n",
+			"occur-$pst.$ind $3sg.$t-die-$caus-$npst.$ind ant-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1531",
+		"text": "Nā sesonzā, palē set²ah² tō nuzkēkā ya rōtōen lacism²a.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Help, I just laughed out loud at a digital picture.",
+		"expl": "A few things to note - the equivalent to the English 'just did ...' is given by the expresion <i>palē tō ...</i>, meaning literally '(I) arrived from ...' For 'laugh out loud,' the root <i>nuz-</i> is appeneded onto the verb as an intensifier. Translating 'photograph' is analogous to its form in many other languages: the full word is <i>rōtōraīn</i> which can literally be broken up as 'image from light.' It is clipped to <i>rōtō(en)</i> in most contexts.",
+		"data": [
+			"nā   se-sonz-ā               pal-ē            set²ah² tō   nuz-kēk-ā               ya   rōtō-en         lacism²-a",
+			"$imp $1sg.$t-help-$npst.$ind arrive-$pst.$ind $1sg    $abl be_big-laugh-$npst.$ind $dat photo-$absl.$sg numeric-$npst.$attr"
+		]
+	},
+	{
+		"link": "5MOYD-1530",
+		"text": "Xē tetem²esayt²en en²reyā maskeyt²en ya Asān namān.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "The dentist made the director show the letter to Hasan.",
+		"expl": "",
+		"data": [
+			"Ø-x-ē                   tete-m²-e-say-t²-en                      Ø-en²-r-ey-ā                       mask-ey-t²-en                  ya   Asān         nama-:n",
+			"$3sg.$t-$caus-$pst.$ind tooth-$qual-$nmz-medicate-$agt-$absl.$sg $3sg.$t-see-$pass-$caus-$npst.$ind be_direct-$caus-$agt-$absl.$sg $dat $proper_name page-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1529",
+		"text": "Isnā bakehzā sū Rossiān!",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Don't urinate towards Russia.",
+		"expl": "",
+		"data": [
+			"isnā      bake-hz-ā           sū   Rossia-:n",
+			"$imp.$neg urine-$v-$npst.$ind $all Russia-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1528",
+		"text": "Rihuī-rihuā setah alūn.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "I am drinking (water) repeatedly.",
+		"expl": "The prompt specifies what I assume is iterative. I mused over a few ideas on how to indicate this, and settled on expanding off of a previous construction (become/grow more and more ...) which uses a raised, reduplicated adverbial form of the verb. The '(to become/grow) more and more' construction can be easily re-analyzed as derivative of an iterative mood since the construction uses the auxiliary <i>-latā</i> 'it becomes (it),' for example: <i>renī-renlatē</i> 'it became better and better.'",
+		"data": [
+			"Ø-rihu-ī=Ø-rihu-ā                          setah alu-:n",
+			"$3sg.$t-drink-$adv=$3sg.$t-$rdp-$npst.$ind $1sg  water-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1527",
+		"text": "👀 t²ē ne konsallen tect²en ne ru tō sepal.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "👀 the student was in a theatre an hour before me.",
+		"expl": "",
+		"data": [
+			"👀    t²-ē           ne   konsall-en        tect²-en          ne   ru             tō   se-pal-Ø-Ø",
+			"$emoji $cop-$pst.$ind $loc theatre-$absl.$sg student-$absl.$sg $loc hour-$posd.$sg $abl $1sg.$t-arrive-$nmz-$posd.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1526",
+		"text": "Kuy lahuā māhten²t²en on tanā Rasul?",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Does mother know what Rasul is building?",
+		"expl": "",
+		"data": [
+			"kuy Ø-lahu-ā                māhten²t²-en     on      Ø-tan-ā                 Rasul",
+			"$q  $3sg.$t-know-$npst.$ind mother-$absl.$sg $on.$sg $3sg.$t-make-$npst.$ind $proper_name"
+		]
+	},
+	{
+		"link": "5MOYD-1525",
+		"text": "Rapohuē īt²oh², ne poxā huakā peznumi, on « Tūlt²en! Tūlt²en! Tūlt²en! »",
+		"phnm": "",
+		"phnt": "",
+		"trns": "When they heard the dogs barking, they started to say \"Thief! Thief! Thief!\"",
+		"expl": "The subordinator <i>on</i> here acts as a quotative particle for direct quotation. It is often omitted when the quotation is full clause, such as in dialogue like <i>rapē « sohā tūlten! »</i> 'he said \"there is a thief!\"'",
+		"data": [
+			"Ø-rap-ohu-ē                 īt²oh² ne   Ø-pox-ā                 huak-ā          peznu-mi      on      tūl-t²-en            tūl-t²-en            tūl-t²-en",
+			"$3sg.$t-say-begin-$pst.$ind $3pl   $loc $3sg.$t-hear-$npst.$ind bark-$npst.$ind dog-$absl.$pl $on.$sg steal-$agt-$absl.$sg steal-$agt-$absl.$sg steal-$agt-$absl.$sg"
+		]
+	},
+	{
+		"link": "MISC-5",
+		"text": "Īs sohā nallam²ēn sontism²a sū tleti īs tobecrā mo nimē nosem²etect²en.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "There is no grammar so absurd that is has not been proposed by some linguist.",
+		"expl": "",
+		"data": [
+			"īs   soh-ā            nallame-:n        sontism²-a            sū   tlet-i-Ø                īs   tob-ec-r-ā                    mo   nimē nosem²etect²-en",
+			"$neg exist-$npst.$ind grammar-$absl.$sg be_absurd-$npst.$attr $all extend-$abstr-$posd.$sg $neg propose-$prf-$pass-$npst.$ind $act any  linguist-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1524",
+		"text": "Tanā ne ten lōn Ali esden.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Ali is in the state of building a house.",
+		"expl": "The 5MOYD prompt includes an addendum <i>house building currently affects his life</i>, but this is not grammatically conveyed by the language (my assumption is that the paper from which the prompt was taken surveyed a language where this is grammatically salient).",
+		"data": [
+			"Ø-tan-ā                 ne   ten  lo-:n            Ali          esd-en",
+			"$3sg.$t-make-$npst.$ind $loc this moment-$absl.$sg $proper_name house-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1523",
+		"text": "T²ā nēlā essē set²ah² tapā ya m²et²ah² rizquet²en in xeih sorīn, ko cēz t²ā carā essē m²et²ah² nōi.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "I really do think you need a mentor and lots of love, because you do seem very angry.",
+		"expl": "This exemplifies the use of <i>tā</i> i.e. the copula as a clausal intensifier. In English, the intensivity is given by 'do,' as in 'I <i>do</i> think ...' rather than 'I think,' which is fairly neutral. The literal translation is 'it is that I think ...' for <i>tā nēlā (setah)</i>. Note also that 'very' and 'really' (in the sense of an intensifier) are lexified equally - this reflects the more overarching nature that verbs and adjectives are not grammatically distinguished.",
+		"data": [
+			"t²-ā            Ø-nēl-ā                  essē set²ah² tap-ā                   ya   m²et²ah² rizqu-et²-en         in  xeih sor-i-:n              ko     cēz-Ø            t²-ā            car-ā               essē m²et²ah² nōi",
+			"$cop-$npst.$ind $3sg.$t-think-$npst.$ind very $1sg    be_necessary-$npst.$ind $dat $2sg     teach-$agt-$absl.$sg and much love-$abstr-$absl.$sg $instr reason-$posd.$sg $cop-$npst.$ind be_angry-$npst.$ind very $2sg     seem"
+		]
+	},
+	{
+		"link": "MISC-4",
+		"text": "Petlo m²enari in nader m²enari; sopenā tīē.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Thy rod and thy staff; they comfort me.",
+		"expl": "Translating this one involved deciding between a formal and personal second person for 'thy.' In normal speech 'your' is an affix upon the noun (i.e. <i>mepetlo in menader</i>) but in order to respect the gravitas of the original, I chose to use the formal <i>menari</i> 'you' &lt;&lt; <i>m(e)</i> 'your' + <i>narīn</i> 'clarity' &lt;&lt; <i>narā</i> 'it is clear.'<br>It should be noted that in English of the time this was originally written, 'thou' is more personal than 'you,' and in many languages the personal T is used in reference to God. My native language (English) does not make the T-V distinction and my understanding therefore of the distinction is academically derived and conversationally infelicitous.",
+		"data": [
+			"petlo-Ø         m²e-nar-i-Ø                       in  nader-Ø         m²e-nar-i-Ø                       s-open-ā                   tī-ē",
+			"stick-$posd.$sg $2sg.$t-be_clear-$abstr-$posd.$sg and staff-$posd.$sg $2sg.$t-be_clear-$abstr-$posd.$sg $1sg.$t-comfort-$npst.$ind this-$absl.$pl"
+		]
+	},
+	{
+		"link": "5MOYD-1522",
+		"text": "Rapē soquen kitecā notūn ko petlōn huatān.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "The girl said that the boy had hit the snake with a stick.",
+		"expl": "",
+		"data": [
+			"Ø-rap-ē               soqu-en        Ø-kit-ec-ā                  notu-:n       ko     petlo-:n        huata-:n",
+			"$3sg.$t-say-$pst.$ind girl-$absl.$sg $3sg.$t-hit-$prf-$npst.$ind boy-$absl.$sg $instr stick-$absl.$sg snake-$absl.$sg"
+		]
+	},
+	{
+		"link": "MISC-3",
+		"text": "Ihō, t²ā rizquā rān ya lakrecyē as otouhlā rōm²ī!",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Oh, how she doth teach the torches to burn bright!",
+		"expl": "",
+		"data": [
+			"ihō     t²-ā            Ø-rizqu-ā                ra-:n         ya   lakr-ecy-ē         as            o-touhl-ā             rōm²-ī",
+			"$exclam $cop-$npst.$ind $3sg.$t-teach-$npst.$ind she-$absl.$sg $dat tar-$dim-$absl.$pl how-$posd.$sg $refl-burn-$npst.$ind be_bright-$adv"
+		]
+	},
+	{
+		"link": "5MOYD-1521",
+		"text": "Ya Mēri alos piquā Cōn et²ah², in eh²nā piquā.",
+		"phnm": "{ja:2} {me͈:5}{ri:2} {a:2}{los:3} {pi:2}{kʷa͈:5} {t͜ʃo͈n:6} {e:2}{taʔ:1} {in:3} {eʔ:1}{na͈:5} {pi:2}{kʷa͈:5}",
+		"phnt": "ja ˈmeːri ˈalɔs piˈkʷaː t͜ʃon̥ ˈetɑ ɪn əʔˈnaː piˈkʷaː",
+		"trns": "Mary plans for John to marry her, and marry her he will.",
+		"expl": "",
+		"data": [
+			"ya Mēri<sub>i</sub> alos-Ø Ø-piqu-ā Cōn et²ah²<sub>i</sub> in eh²-n-ā Ø-piqu-ā",
+			"$dat $proper name plan-$posd.$sg $3sg.$t-marry-$npst.$ind $proper name $drefl.$sg and$cop-$fut-$npst.$ind $3sg.$t-marry-$npst.$ind"
+		]
+	},
+	{
+		"link": "MISC-2",
+		"text": "Yapulnā ān²t²oh² xuhzī alektesū sar iztanemi marramazūm²a.",
+		"phnm": "{ja:2}{pul:3}{na͈:5} {a͈n:6}{toʔ:1} {ʃuʔ:1}{t͜si͈:5} {a:2}{lek:3}{te:2}{su͈:5} {sar:3} {it͜s:3}{ta:2}{ne:2}{mi:2} {mar:3}{ra:2}{ma:2}{t͜su͈:5}{ma:2}",
+		"phnt": "jaˈpʊlnaː ˈantɔ ʃʊʔˈt͜siː aˈlɛktesuː sɑr̥ ɪt͜sˈtanemi ˌmɑrramaˈt͜suːma",
+		"trns": "Marching northward, you all will find two coastal cities.",
+		"expl": "",
+		"data": [
+			"y-apul-n-ā                   ān²t²oh² xuhz-ī     alekte=sū  sar iztane-mi      marramazūm²-a",
+			"$3pl.$t-find-$fut-$npst.$ind $3pl     march-$adv north=$all two city-$absl.$pl coastal-$npst.$attr"
+		]
+	},
+	{
+		"link": "5MOYD-1520",
+		"text": "Xenā āst²oh² ikosā astecoh² sar rēzbehuemi.",
+		"phnm": "{ʃe:2}{na͈:5} {a͈s:6}{toʔ:1} {i:2}{ko:2}{sa͈:5} {as:3}{te:2}{t͜ʃoʔ:1} {sar:3} {re͈t͜s:6}{be:2}{we:2}{mi:2}",
+		"phnt": "ʃeˈnaː ˈastɔ ˈikosaː ˈɑstet͜ʃɔ sɑr̥ ret͜sˈbeʋemi",
+		"trns": "We will have our students do two exercises.",
+		"expl": "",
+		"data": [
+			"Ø-x-en-ā                      āst²oh² i-kos-ā                    as-tec<o>h²                sar rēzbehu-emi",
+			"$3sg.$t-$caus-$fut-$npst.$ind $1pl    $3pl.$t-perform-$npst.$ind $1pl.$t-student<$posd.$pl> two exercise-$absl.$pl"
+		]
+	},
+	{
+		"link": "5MOYD-1519",
+		"text": "Kuy bosnā ne ruh²maxtūn setaw ko seren ne pos epocyen?",
+		"phnm": "{kuj:3} {bos:3}{na͈:5} {ne:2} {ruʔ:1}{maʃ:3}{tu͈n:6} {se:2}{taw:3} {ko:2} {se:2}{ren:3} {ne:2} {pos:3} {e:2}{poc:3}{jen:3}",
+		"phnt": "kʊj ˈbɔsnaː ne rʊʔˈmɑʃtun̥ ˈsetɑʍ ko ˈserən̥ ne pɔs eˈpɔt͜ʃjən̥",
+		"trns": "Will you be carrying my load across the creek for me tomorrow?",
+		"expl": "'Load' is translated as the nominalized form of <i>tahuōs</i> 'to be weary' in an attempt to evoke a similar connotation to the English 'load,' i.e. 'that which is burdensome.' A more neutral alternative would be <i>mōē</i> 'things.'",
+		"data": [
+			"kuy Ø-bos-n-ā                     ne   ruh²maxtu-:n       se-taw-Ø-Ø                      ko     se-ren-Ø-Ø                     ne   pos-Ø-Ø                epo-cy-en",
+			"$q  $3sg.$t-carry-$fut-$npst.$ind $loc tomorrow-$absl.$sg $1sg.$t-be_weary-$nmz-$posd.$sg $instr $1sg.$t-be_good-$nmz-$posd.$sg $loc be_wide-$nmz-$posd.$sg river-$dim-$absl.$sg"
+		]
+	},
+	{
+		"link": "MISC-1",
+		"text": "Āh²nā set²ah² sū lūtoltān ya urā lūtōn.",
+		"phnm": "{a͈ʔ:4}{na͈:5} {se:2}{taʔ:1} {su͈:5} {lu͈:5}{tol:3}{ta͈n:6} {ja:2} {u:2}{ra͈:5} {lu͈:5}{to͈n:6}",
+		"phnt": "ˈaʔnaː ˈsetɑ suː ˈluːtɔltan̥ ja uˈraː ˈluːton̥",
+		"trns": "I will be going to the bookstore to buy a book.",
+		"expl": "",
+		"data": [
+			"āh²-n-ā            set²ah² sū   lūto-lta-:n          ya   Ø-ur-ā                 lūto-:n",
+			"go-$fut-$npst.$ind $1sg    $all book-store-$absl.$sg $dat $3sg.$t-buy-$npst.$ind book-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1518",
+		"text": "Mac, kuy eh²t²en on piquena set²ah², eh²t²en on apulna?",
+		"phnm": "{mat͜ʃ:3} {kuj:3} {eʔ:1}{ten:3} {on:3} {pi:2}{kʷe:2}{na:2} {se:2}{taʔ:1} {eʔ:1}{ten:3} {on:3} {a:2}{pul:3}{na:2}",
+		"phnt": "mɑt͜ʃ kʊj əʔˈtɛn̥ ɔn̥ ˈpikʷena ˈsetɑ əʔˈtɛn̥ ɔn̥ aˈpʊlna",
+		"trns": "Now, who shall I marry, who shall I find?",
+		"expl": "<i>Ehten</i> is the agentive form of the copula <i>etā</i>, from where derives the pronouns (e.g. <i>s-etah</i>). The absolutive is reanalized as 'who.'",
+		"data": [
+			"mac       kuy eh²t²en on      ∅-piqu-en-a                    set²ah² eh²t²en on      ∅-apul-n-a",
+			"well_then $q  who     $on.$sg $3sg.$t-marry-$fut-$npst.$attr $1sg    who     $on.$sg $3sg.$t-find-$fut-$npst.$attr"
+		]
+	},
+	{
+		"link": "5MOYD-1517",
+		"text": "Aycā tanā Marīa nullen.",
+		"phnm": "{aj:3}{t͜ʃa͈:5} {ta:2}{na͈:5} {ma:2}{ri͈:5}{a:2} {nul:3}{len:3}",
+		"phnt": "ˈɑjt͜ʃaː taˈnaː maˈrija ˈnʊllən̥",
+		"trns": "Maria would have made the dough.",
+		"expl": "The conditional auxilary <i>ayā</i> is not suffixed onto the main verb.",
+		"data": [
+			"ay-c-ā                Ø-tan-ā                 Marīa        null-en",
+			"$cond-$prf-$npst.$ind $3sg.$t-make-$npst.$ind $proper_name dough-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1516",
+		"text": "Mikcē luscam²ī nin²ta ne on ne-t²e osuhocēs in lāsē eresū.",
+		"phnm": "{mik:3}{t͜ʃe͈:5} {lus:3}{t͜ʃa:2}{mi͈:5} {nin:3}{ta:2} {ne:2} {on:3} {ne:2}{te:2} {o:2}{suʔ:1}{o:2}{t͜ʃe͈s:6} {in:3} {la͈:5}{se͈:5} {e:2}{re:2}{su͈:5}",
+		"phnt": "ˈmɪkt͜ʃeː ˈlʊs̠t͜ʃamiː ˈnɪn̥ta ne ɔn̥ ˈnete osʊʔˈot͜ʃes ɪn̥ ˈlaːseː ˈeresuː",
+		"trns": "Surprisingly, the merchants had left their goods where they were and had run away.",
+		"expl": "The word <i>eresū</i> is used here to translate the sense of '... away' as expressed in the English - it is a nominally-incorporated prepositional phrase from <i>sū</i> 'to(wards)' and <i>ere-</i> 'area beyond a great distance' &lt;&lt; <i>erā</i> 'it is far.'",
+		"data": [
+			"Ø-mik-c-ē                           lusca-m²-ī          nin²-t-a            ne   on      ne=t²-e              o-suhoc-e-:s                 in  lās-ē         eresū",
+			"$3sg.$t-leave_behind-$prf-$pst.$ind surprise-$qual-$adv sell-$agt-$absl.$pl $loc $on.$sg $loc=$cop-$pst.$attr $refl-possess-$nmz-$posd.$pl and run-$pst.$ind waywardly"
+		]
+	},
+	{
+		"link": "5MOYD-1515",
+		"text": "Polhā sū siphuen set²ah² oēlāzhue.",
+		"phnm": "{pol:3}{ya͈:5} {su͈:5} {sip:3}{wen:3} {se:2}{taʔ:1} {o:2}{e͈:5}{la͈t͜s:6}{we:2}",
+		"phnt": "ˈpɔɬaː suː ˈsɪpwən̥ ˈsetɑ oeːˈlat͜swe",
+		"trns": "I hang my dress on a tree.",
+		"expl": "The word <i>ēlāzhuēn</i>, translated here as 'dress,' is derived from <i>ēl-</i> 'woman, female' and <i>āzhuēn</i> 'clothing' &lt;&lt; <i>atāzhuōs</i> 'to wear.'",
+		"data": [
+			"Ø-pol-h-ā                     sū   siphu-en       set²ah² o-ēlāzhue-Ø",
+			"$3sg.$t-hang-$caus-$npst.$ind $all tree-$absl.$sg $1sg    $refl.$t-dress-$posd.$sg"
+		]
+	}
+]

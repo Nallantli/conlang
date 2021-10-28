@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "On Serwal";
+	src        : url(fonts/on_serwal.ttf);
+}
+
+@font-face {
+	font-family: "Serwal Sans";
+	src        : url(fonts/SerwalSans.ttf);
+}
+
+@font-face {
+	font-family: "Serwal Godika";
+	src        : url(fonts/SerwalGodika.ttf);
+}
+
+@font-face {
+	font-family: "Tozwanseer";
+	src        : url(fonts/Tozwanseer.ttf);
+}
+
+.FontEtlSerif {
+	font-family: 'On Serwal';
+}
+
+.FontEtlSans {
+	font-family: 'Serwal Sans';
+}
+
+.FontEtlGothic {
+	font-family: 'Serwal Godika';
+}
+
+.FontEtlBlock {
+	font-family: 'Tozwanseer';
+}
+
+.FontLatin {
+	font-family: 'IBM Plex Serif', serif;
+}

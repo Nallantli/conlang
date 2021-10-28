@@ -1,0 +1,23 @@
+* {
+	transition: background-color 0.2s ease-in-out;
+}
+
+body {
+	font-family     : 'IBM Plex Serif', serif;
+	margin          : 0;
+	padding         : 0;
+	background-color: var(--color-background);
+	color           : var(--color-text);
+	line-height     : 1.5em;
+}
+
+tr,
+td,
+table {
+	margin : 0;
+	padding: 0;
+}
+
+sub {
+	line-height: 0;
+}

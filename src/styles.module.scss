@@ -1,0 +1,149 @@
+.GlossTable {
+	margin-left: 20px;
+	font-size  : 14px;
+}
+
+.GlossCell {
+	display: inline-block;
+	padding: 5px;
+}
+
+.GlossIPA {
+	font-family  : 'Iosevka', monospace;
+	font-size    : 12px;
+	margin-top   : 10px;
+	margin-bottom: 10px;
+}
+
+.SmallCaps {
+	font-variant         : small-caps;
+	font-style           : normal;
+	position             : relative;
+	display              : inline-block;
+	text-decoration      : underline dotted;
+	text-decoration-color: var(--color-sc-underline);
+	text-underline-offset: 2px;
+	transition           : all 0.1s ease-in-out;
+}
+
+.SmallCaps:hover {
+	text-decoration-color: var(--color-sc-underline-hover);
+}
+
+.GlossWord {
+	font-style: italic;
+}
+
+.GlossHover {
+	visibility      : hidden;
+	opacity         : 0;
+	font-variant    : normal;
+	margin-top      : 5px;
+	position        : absolute;
+	background-color: var(--color-explanation-background);
+	box-shadow      : var(--color-explanation-background) 2px 2px 10px;
+	color           : var(--color-explanation-text);
+	padding         : 5px;
+	z-index         : 999;
+	transition      : all 0.1s ease-in-out;
+}
+
+.GlossHover p {
+	margin : 0;
+	padding: 0;
+}
+
+.SmallCaps:hover .GlossHover {
+	visibility: visible;
+	opacity   : 1;
+}
+
+.Gloss {
+	position     : relative;
+	font-size    : 18px;
+	margin-bottom: 20px;
+	overflow     : visible;
+}
+
+.GlossLink {
+	text-decoration: none;
+	font-size      : 14px;
+	color          : var(--color-link-text);
+	transition     : all 0.1s ease-in-out;
+}
+
+.GlossLink:hover {
+	color: var(--color-sc-underline-hover);
+}
+
+.level-1,
+.level-2,
+.level-3,
+.level-4,
+.level-5,
+.level-6 {
+	position: relative;
+}
+
+.level-after-bottom {
+	position           : absolute;
+	content            : "";
+	right              : -1px;
+	left               : 0;
+	border-bottom      : 1px solid var(--color-text);
+	background-position: left;
+	background-size    : 1px 2px;
+	background-repeat  : repeat-y;
+}
+
+.level-after-top {
+	position           : absolute;
+	content            : "";
+	right              : -1px;
+	left               : 0;
+	border-top         : 1px solid var(--color-text);
+	background-position: left;
+	background-size    : 1px 2px;
+	background-repeat  : repeat-y;
+}
+
+.GlossTrans {
+	font-style: italic;
+	display   : block;
+}
+
+/* hide scrollbar but allow scrolling */
+.GlossExpl {
+	-ms-overflow-style: none;
+	/* for Internet Explorer, Edge */
+	scrollbar-width   : none;
+	/* for Firefox */
+	overflow-y        : scroll;
+}
+
+.GlossExpl::-webkit-scrollbar {
+	display: none;
+	/* for Chrome, Safari, and Opera */
+}
+
+.GlossExpl {
+	transition      : all 0.1s ease-in-out;
+	color           : var(--color-explanation-text);
+	background-color: var(--color-explanation-background);
+	border-left     : 2px solid var(--color-link-text);
+	padding         : 15px;
+	margin          : 10px;
+	font-size       : 14px;
+}
+
+.GlossExpl:hover {
+	border-left: 2px solid var(--color-sc-underline-hover);
+}
+
+.Content {
+	max-width     : 600px;
+	margin        : auto;
+	padding       : 5px;
+	padding-top   : 25px;
+	padding-bottom: 25px;
+}
