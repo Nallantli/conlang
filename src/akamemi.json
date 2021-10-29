@@ -1,8 +1,176 @@
 [
 	{
+		"link": "5MOYD-1560",
+		"text": "Tapā nehloī ilequenā set²ah² MATAHUIN, tannā ne ocken yūen.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Now I will have to wash THE DISHES, later I will make bread.",
+		"expl": "",
+		"data": [
+			"tap-ā                   nehloī i-lequ-en-ā                   set²ah² mata-huin       Ø-tan-n-ā                    ne   ock-en         yū-en",
+			"be_necessary-$npst.$ind now    $3pl.$t-clean-$fut-$npst.$ind $1sg    plate-$absl.$pl $3sg.$t-make-$fut-$npst.$ind $loc back-$absl.$sg bread-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1559",
+		"text": "Olē īt²oh² meltān ne on eh²tleteca bālaemār.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "They put a store on what is supposed to be a wheat field.",
+		"expl": "",
+		"data": [
+			"Ø-ol-ē                  īt²oh² melta-:n        ne   on      eh²-tlet-ec-a      bāla-ema<:>r",
+			"$3sg.$t-place-$pst.$ind $3pl   store-$absl.$sg $loc $on.$sg $cop-extend-$prf-$ wheat-farmland<$absl.$sg>"
+		]
+	},
+	{
+		"link": "5MOYD-1558",
+		"text": "Peryarrē īt²oh² Husein āh²ca ne olup samī sū noctizen.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "They took with them Huseyn who had not gone to the mountain ever in his life.",
+		"expl": "",
+		"data": [
+			"Ø-peryarr-ē                  īt²oh² Husein       āh-c-a              ne   o-lup-Ø-Ø                    samī  sū   noctiz-en",
+			"$3sg.$t-take_along-$pst.$ind $3pl   $proper_name go-$prf-$npst.$attr $loc $refl.$t-live-$nmz-$posd.$sg never $all mountain-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1557",
+		"text": "Isnā melā roten ya ronen ose īs!",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Don’t give money to the man who did not work!",
+		"expl": "",
+		"data": [
+			"isnā      Ø-mel-ā                 rot-en          ya   ron-en        os-e            īs",
+			"$imp.$neg $3sg.$t-give-$npst.$ind money-$absl.$sg $dat man-$absl.$sg work-$pst.$attr $neg"
+		]
+	},
+	{
+		"link": "5MOYD-1556",
+		"text": "Kankam²ā alen istlecā yayōn.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "He is complaining that the donkey has disappeared.",
+		"expl": "",
+		"data": [
+			"Ø-kankam²-ā                       al-en        istl-ec-ā                 yayo-:n",
+			"$3sg.$t-complain_about-$npst.$ind he-$absl.$sg disappear-$prf-$npst-$ind donkey-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1555",
+		"text": "Nā itekolā, ne palā alūn tō oposkā, yūtackacya ne tālmōs!",
+		"phnm": "",
+		"phnt": "",
+		"trns": "As soon as the water boils, put the dumplings in the cooking-pot!",
+		"expl": "<i>Yūtackacyen</i> 'dumpling' &lt;&lt; <i>yūen</i> 'bread' + <i>tackān</i> 'egg'. Roughly 'little bread-egg' (that is, not bread made from egg, but an 'egg' made of bread). Also a rather mean tongue twister.",
+		"data": [
+			"nā   i-tekol-ā                 ne   pal-ā             alu-:n          tō   o-posk-ā                 yūtackacy-a        ne   tāl-mo<:>s",
+			"$imp $3pl.$t-insert-$npst.$ind $loc arrive-$npst.$ind water-$absl.$sg $abl $refl.$t-boil-$npst.$ind dumpling-$absl.$pl $loc cook-pot<$absl.$sg>"
+		]
+	},
+	{
+		"link": "5MOYD-1554",
+		"text": "Xum²ā Illīs īs ikā nimē on rōtōē t²a Molla Rasadi.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Ilise does not want people taking pictures of Molla Rasadi.",
+		"expl": "",
+		"data": [
+			"Ø-xum²-ā                Illīs        īs   i-k-ā                 nimē on      rōtō-ē          t²-a             Molla_Rasadi",
+			"$3sg.$t-want-$npst.$ind $proper_name $neg $3pl.$t-do-$npst.$ind any  $on.$sg photo-$absl.$pl $cop-$npst.$attr $proper_name"
+		]
+	},
+	{
+		"link": "5MOYD-1553",
+		"text": "Nay on ketleta set²ah² ya lahuā mīeh²t²a sertūn rena?",
+		"phnm": "",
+		"phnt": "",
+		"trns": "What should I do so that people know that I am a good person?",
+		"expl": "",
+		"data": [
+			"nay  on      Ø-k-etlet-a                   set²ah² ya   Ø-lahu-ā                mīeh²t²a sertu-:n         ren-a",
+			"$rel $on.$sg $3sg.$t-do-should-$npst.$attr $1sg    $dat $3sg.$t-know-$npst.$ind everyone person-$absl.$sg be_good-$npst.$attr"
+		]
+	},
+	{
+		"link": "5MOYD-1552",
+		"text": "Tacohuē Molla mennūn rih²ne-liqua.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Molla started cutting the branch on which he was sitting.",
+		"expl": "",
+		"data": [
+			"Ø-tac-ohu-ē                 Molla        mennu-:n         rih²-ne=liqu-a",
+			"$3sg.$t-cut-start-$pst.$ind $proper_name branch-$absl.$sg surface-$loc=sit-$npst.$attr"
+		]
+	},
+	{
+		"link": "5MOYD-1551",
+		"text": "T²ē, ko teken in tētēn, mōen cunarnila cōlī en²ca rān mīlon.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "It was, simply put, the blandest thing she had ever seen.",
+		"expl": "<i>Ko teken in tētēn</i> 'by the inside and outside'",
+		"data": [
+			"t²-ē           ko_teken_in_tētēn mō-en           cunarnil-a            cōlī Ø-en²-c-a                   ra-:n         mīlon",
+			"$cop-$pst.$ind simply_put        thing-$absl.$sg flavorless-$npst.$ind most $3sg.$t-see-$prf-$npst.$ind she-$absl.$sg ever"
+		]
+	},
+	{
+		"link": "5MOYD-1550",
+		"text": "T²ā ten on ursa on ah²tāle.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "This young one did the cooking.",
+		"expl": "",
+		"data": [
+			"t²-ā            ten  on      urs-a             on      ah²-tāl-e",
+			"$cop-$npst.$ind this $on.$sg young-$npst.$attr $on.$sg $ntr-cook-$pst.$attr"
+		]
+	},
+	{
+		"link": "5MOYD-1549",
+		"text": "Nā aszā sudā ānnallē ātin mocisrouhxemi xin²tōtaca sūlom²ī ko lōn aihra (ne ate yokhuā).",
+		"phnm": "",
+		"phnt": "",
+		"trns": "Let those freshly circumcised foreskins wait a while yet (before burying them).",
+		"expl": "As strange as the prompt is, it allows for some new coinages: <i>mocisrouhxēn</i> 'foreskin' &lt;&lt; <i>mocīs</i> 'little pot' + <i>rouhxēn</i> 'cover' and <i>sūlomā</i> '(it) is recent' &lt;&lt; <i>sū</i> 'to' + <i>lōn</i> 'moment'. The expression <i>ko lōn aihra</i> is also new, meaning literally 'for a heavy moment.'",
+		"data": [
+			"nā   Ø-asz-ā                  sud-ā             ānnallē ātin mocisrouhxe-mi     xin²tōtac-a            sūlom²-ī       ko_lōn_aihra ne   ate-Ø           y-okhu-ā",
+			"$imp $3sg.$t-allow-$npst.$ind remain-$npst.$ind further that foreskin-$absl.$pl circumcise-$npst.$attr be_recent-$adv for_a_while  $loc front-$posd.$sg $3pl.$t-bury-$npst.$ind"
+		]
+	},
+	{
+		"link": "5MOYD-1548",
+		"text": "Sohā asre mantecā āst²oh² ne kelam²ēn.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "We may have lost it on the beach.",
+		"expl": "",
+		"data": [
+			"soh-ā            asre-Ø                Ø-mant-ec-ā                  āst²oh² ne   kelam²e-:n",
+			"exist-$npst.$ind possibility-$posd.$sg $3sg.$t-lose-$prf-$npst.$ind $1pl    $loc beach-$absl.$sg"
+		]
+	},
+	{
+		"link": "5MOYD-1547",
+		"text": "Tixā set²ah² rihuā okāpē sa huelsīn in tekoxin.",
+		"phnm": "{ti:2}{ʃa͈:5} {se:2}{taʔ:1} {ri:2}{wa͈:5} {o:2}{ka͈:5}{pe͈:5} {sa:2} {wel:3}{si͈n:6} {in:3} {te:2}{ko:2}{ʃin:3}",
+		"phnt": "tiˈʃaː ˈsetɑ riˈʋaː oˈkaːpeː sa ˈwɛlsin̥ ɪn̥ ˈtekoʃɪn̥",
+		"trns": "I like to have my coffee with cream and socks.",
+		"expl": "",
+		"data": [
+			"Ø-tix-ā                set²ah² Ø-rihu-ā                o-kāpē-Ø                  sa   huelsi-:n        in  tekox-in",
+			"$3sg.t-like-$npst.$ind $1sg    $3sg.t-drink-$npst.$ind $refl.$t-coffee-$posd.$sg $com cream-$absl.$sg and sock-$absl.$pl"
+		]
+	},
+	{
 		"link": "5MOYD-1546",
 		"text": "Xum²ā āst²oh² kā osēn īt²oh² renī demī.",
-		"phnm": "{ʃu:2}{ma͈:5} {ka͈:5} {o:2}{se͈n:6} {i͈:5}{toʔ:1} {re:2}{ni͈:5} {de:2}{mi͈:5}",
+		"phnm": "",
 		"phnt": "",
 		"trns": "We want them to do the work better.",
 		"expl": "I have variously translated 'they' (3rd person plural) with <i>alē</i> and <i>rami</i>, corresponding to masculine and feminine. The more general <i>ītoh</i> has no explicit gender, and should be used for groups where [1] members are of both sexes (e.g. a classroom) and/or [2] the members are too vast or too general to know (e.g. the population of the United States).",
