@@ -206,8 +206,8 @@ function generateFromText(text: string) {
 		.replace(/ū/g, 'u͈');
 }
 
-function Gloss(props: { link?: string, text: string, phnm?: string, phnt?: string, trns: string, expl?: string, data: string[] }) {
-	const { link, data, text, phnm, phnt, trns, expl } = props;
+function Gloss(props: { link: string, text: string, phnm?: string, phnt?: string, trns: string, expl?: string, data: string[], select: (link: string) => void }) {
+	const { link, data, text, phnm, phnt, trns, expl, select } = props;
 	const [glosses, values] = data;
 	const splitGloss = glosses.split(/\s+/g);
 	const splitValue = values.split(/\s+/g);
@@ -217,7 +217,10 @@ function Gloss(props: { link?: string, text: string, phnm?: string, phnt?: strin
 	}</div>);
 	return (
 		<div className={styles.Gloss}>
-			{link && <a id={link} className={styles.GlossLink} href={`#${link}`}>#{link}</a>}
+			<div className={styles.GlossHeader}>
+				<a id={link} className={styles.GlossLink} href={`#${link}`}>#{link}</a>
+				<button className={styles.GlossButton} onClick={() => select(link)}>+</button>
+			</div>
 			<div>
 				<span className={fontStyles.FontLatin}>{text.replace(/²/g, '')}</span>
 			</div>
@@ -232,16 +235,67 @@ function Gloss(props: { link?: string, text: string, phnm?: string, phnt?: strin
 	);
 }
 
-function App() {
-	return (
-		<div className="App">
-			<div className={styles.Content}>
-				{
-					akamemi.map(data => (<Gloss {...data} />))
-				}
-			</div>
-		</div>
-	);
+interface AppProps {
+	query?: string[]
+}
+interface AppState {
+	newQuery: string[]
 }
 
-export default App;
+function arrayEqual(a: any[], b: any[]) {
+	if (a.length !== b.length) {
+		return false;
+	}
+	for (let i = 0; i < a.length; i++) {
+		if (a[i] !== b[i]) {
+			return false;
+		}
+	}
+	return true;
+}
+export default class App extends React.Component<AppProps, AppState> {
+	constructor(props: AppProps) {
+		super(props);
+		this.selectGloss = this.selectGloss.bind(this);
+		this.removeGloss = this.removeGloss.bind(this);
+		this.state = {
+			newQuery: props.query || []
+		};
+	}
+
+	selectGloss(link: string) {
+		if (this.state.newQuery.indexOf(link) === -1) {
+			this.setState({
+				newQuery: this.state.newQuery.concat(link).sort()
+			});
+		}
+	}
+
+	removeGloss(link: string) {
+		this.setState({
+			newQuery: this.state.newQuery.filter(q => q !== link)
+		});
+	}
+
+	render() {
+		const { query } = this.props;
+		const { newQuery } = this.state;
+		return (
+			<div className="App">
+				<div className={styles.Content}>
+					{(query ? akamemi.filter(a => query.includes(a.link)) : akamemi)
+						.map(data => (<Gloss {...data} select={this.selectGloss} />))}
+				</div>
+				{
+					newQuery.length !== 0 &&
+					<div className={styles.NewQueryContainer}>
+						<button onClick={() => {
+							window.location.href = `?q=${newQuery.join('|')}`;
+						}} className={styles.NewQueryTotal}>{`?q=${newQuery.join('|')}`}</button>
+						{newQuery.map(link => (<button onClick={() => this.removeGloss(link)} className={styles.NewQuery}>{link}</button>))}
+					</div>
+				}
+			</div>
+		);
+	}
+}

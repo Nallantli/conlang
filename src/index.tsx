@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const urlParams = new URLSearchParams(window.location.search);
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App query={urlParams.get('q')?.split('|')}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
