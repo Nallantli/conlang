@@ -171,12 +171,37 @@
 }
 
 .NewQueryContainer {
-	position  : fixed;
-	top       : 0;
-	left      : 0;
-	max-height: 100vh;
-	overflow-y: auto;
-	overflow-x: hidden;
+	display      : block;
+	position     : fixed;
+	top          : 0;
+	padding-right: 20px;
+	left         : -200px;
+	height   : 100vh;
+	overflow-y   : auto;
+	overflow-x   : visible;
+	width    : 200px;
+	transition   : all 0.2s ease-in-out;
+}
+
+.NewQueryContainer:hover {
+	left: 0;
+}
+
+.NewQueryContainer::after {
+	content    : "~ LINK ~";
+	position   : absolute;
+	top        : 35px;
+	right      : -30px;
+	font-size  : 16px;
+	font-family: monospace;
+	font-weight: bold;
+	display    : block;
+	transform  : rotate(90deg);
+	transition : all 0.2s ease-in-out;
+}
+
+.NewQueryContainer:hover::after {
+	color: var(--color-sc-underline-hover);
 }
 
 .NewQuery {
@@ -206,7 +231,6 @@
 	margin          : 5px;
 	background-color: var(--color-toggle-background);
 	transition      : all 0.1s ease-in-out;
-	max-width       : 20em;
 }
 
 .NewQueryTotal:hover {
