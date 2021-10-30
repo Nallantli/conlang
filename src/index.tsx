@@ -1,24 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import styles from './darkTheme.module.scss';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Search } from './Search';
-
-const urlParams = new URLSearchParams(window.location.search);
+import App from './App';
 
 ReactDOM.render(
 	<React.StrictMode>
-		{(() => {
-			switch (window.location.pathname) {
-				default:
-					return (<App query={urlParams.get('q')?.split('|')} styles={styles} />);
-				case '/conlang/search':
-				case '/search':
-					return (<Search styles={styles} query={urlParams.get('q') || ''} />);
-			}
-		})()}
+		<App />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
