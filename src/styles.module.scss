@@ -174,12 +174,12 @@
 	display      : block;
 	position     : fixed;
 	top          : 0;
-	padding-right: 20px;
+	padding-right: 30px;
 	left         : -200px;
-	height   : 100vh;
+	height       : 100vh;
 	overflow-y   : auto;
 	overflow-x   : visible;
-	width    : 200px;
+	width        : 200px;
 	transition   : all 0.2s ease-in-out;
 }
 
@@ -187,20 +187,21 @@
 	left: 0;
 }
 
-.NewQueryContainer::after {
-	content    : "~ LINK ~";
-	position   : absolute;
-	top        : 35px;
-	right      : -30px;
-	font-size  : 16px;
-	font-family: monospace;
-	font-weight: bold;
-	display    : block;
-	transform  : rotate(90deg);
-	transition : all 0.2s ease-in-out;
+.NewQueryContainerAfter {
+	transform-origin: left;
+	position        : absolute;
+	top             : 5px;
+	left            : 215px;
+	width           : 300px;
+	font-size       : 16px;
+	font-family     : monospace;
+	font-weight     : bold;
+	display         : block;
+	transform       : rotate(90deg);
+	transition      : all 0.2s ease-in-out;
 }
 
-.NewQueryContainer:hover::after {
+.NewQueryContainer:hover .NewQueryContainerAfter {
 	color: var(--color-sc-underline-hover);
 }
 
@@ -236,4 +237,25 @@
 .NewQueryTotal:hover {
 	background-color: var(--color-sc-underline-hover);
 	color           : var(--color-toggle-background);
+}
+
+.ButtonContainer {
+	display              : grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.TextButton {
+	font-family  : monospace;
+	display      : inline-block;
+	padding      : 5px;
+	margin       : 0px;
+	border       : none;
+	border-radius: 0;
+	background   : none;
+	color        : var(--color-text);
+	transition   : all 0.1s ease-in-out;
+}
+
+.TextButton:hover {
+	color: var(--color-sc-underline-hover);
 }

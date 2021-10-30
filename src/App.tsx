@@ -6,6 +6,16 @@ import fontStyles from './fontStyle.module.css';
 import glossKeys from './glossKeys.json';
 import akamemi from './akamemi.json';
 
+interface GlossTemplate {
+	"link": string,
+	"text": string,
+	"phnm"?: string,
+	"phnt"?: string,
+	"trns": string,
+	"expl"?: string,
+	"data": string[]
+}
+
 function interpolate(a: any[], b: any) {
 	let c = [];
 	for (let i = 0; i < a.length; i++) {
@@ -206,8 +216,9 @@ function generateFromText(text: string) {
 		.replace(/ū/g, 'u͈');
 }
 
-function Gloss(props: { link: string, text: string, phnm?: string, phnt?: string, trns: string, expl?: string, data: string[], select: (link: string) => void }) {
-	const { link, data, text, phnm, phnt, trns, expl, select } = props;
+function Gloss(props: { gloss: GlossTemplate, select: (link: string) => void }) {
+	const { gloss, select } = props;
+	const { data, link, text, phnm, phnt, trns, expl } = gloss;
 	const [glosses, values] = data;
 	const splitGloss = glosses.split(/\s+/g);
 	const splitValue = values.split(/\s+/g);
@@ -239,7 +250,9 @@ interface AppProps {
 	query?: string[]
 }
 interface AppState {
-	newQuery: string[]
+	query: string[],
+	newQuery: string[],
+	glosses: GlossTemplate[]
 }
 
 function arrayEqual(a: any[], b: any[]) {
@@ -258,8 +271,12 @@ export default class App extends React.Component<AppProps, AppState> {
 		super(props);
 		this.selectGloss = this.selectGloss.bind(this);
 		this.removeGloss = this.removeGloss.bind(this);
+		this.applyQuery = this.applyQuery.bind(this);
+		this.clearQuery = this.clearQuery.bind(this);
 		this.state = {
-			newQuery: props.query || []
+			query: props.query || [],
+			newQuery: props.query || [],
+			glosses: akamemi || []
 		};
 	}
 
@@ -274,17 +291,32 @@ export default class App extends React.Component<AppProps, AppState> {
 	removeGloss(link: string) {
 		this.setState({
 			newQuery: this.state.newQuery.filter(q => q !== link)
+		}, () => {
+			if (this.state.newQuery.length === 0) {
+				this.clearQuery();
+			}
+		});
+	}
+
+	clearQuery() {
+		this.setState({
+			query: []
+		});
+	}
+
+	applyQuery() {
+		this.setState({
+			query: this.state.newQuery
 		});
 	}
 
 	render() {
-		const { query } = this.props;
-		const { newQuery } = this.state;
+		const { query, newQuery, glosses } = this.state;
 		return (
 			<div className="App">
 				<div className={styles.Content}>
-					{(query ? akamemi.filter(a => query.includes(a.link)) : akamemi)
-						.map(data => (<Gloss {...data} select={this.selectGloss} />))}
+					{(query.length != 0 ? glosses.filter(a => query.includes(a.link)) : glosses)
+						.map(data => (<Gloss gloss={data} select={this.selectGloss} />))}
 				</div>
 				{
 					newQuery.length !== 0 &&
@@ -292,7 +324,12 @@ export default class App extends React.Component<AppProps, AppState> {
 						<button onClick={() => {
 							window.location.href = `?q=${newQuery.join('|')}`;
 						}} className={styles.NewQueryTotal}>{`?q=${newQuery.join('|')}`}</button>
+						<div className={styles.ButtonContainer}>
+							<button className={styles.TextButton} onClick={() => this.clearQuery()}>RESET</button>
+							<button className={styles.TextButton} onClick={() => this.applyQuery()}>APPLY</button>
+						</div>
 						{newQuery.map(link => (<button onClick={() => this.removeGloss(link)} className={styles.NewQuery}>{link}</button>))}
+						<div className={styles.NewQueryContainerAfter}>{`~ LINK(${newQuery.length}) ~`}</div>
 					</div>
 				}
 			</div>
