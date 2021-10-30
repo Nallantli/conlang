@@ -14,6 +14,7 @@ ReactDOM.render(
 			switch (window.location.pathname) {
 				default:
 					return (<App query={urlParams.get('q')?.split('|')} styles={styles} />);
+				case '/conlang/search':
 				case '/search':
 					return (<Search styles={styles} query={urlParams.get('q') || ''} />);
 			}
