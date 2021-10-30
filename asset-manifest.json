@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/conlang/static/css/main.0114b7d7.chunk.css",
+    "main.css": "/conlang/static/css/main.ef49eb7f.chunk.css",
     "main.js": "/conlang/static/js/main.c17c8fec.chunk.js",
     "main.js.map": "/conlang/static/js/main.c17c8fec.chunk.js.map",
     "runtime-main.js": "/conlang/static/js/runtime-main.dd242c60.js",
@@ -10,14 +10,14 @@
     "static/js/3.19ff8c09.chunk.js": "/conlang/static/js/3.19ff8c09.chunk.js",
     "static/js/3.19ff8c09.chunk.js.map": "/conlang/static/js/3.19ff8c09.chunk.js.map",
     "index.html": "/conlang/index.html",
-    "static/css/main.0114b7d7.chunk.css.map": "/conlang/static/css/main.0114b7d7.chunk.css.map",
+    "static/css/main.ef49eb7f.chunk.css.map": "/conlang/static/css/main.ef49eb7f.chunk.css.map",
     "static/js/2.3c927a40.chunk.js.LICENSE.txt": "/conlang/static/js/2.3c927a40.chunk.js.LICENSE.txt",
     "static/media/fontStyle.module.css": "/conlang/static/media/on_serwal.a8707af0.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.dd242c60.js",
     "static/js/2.3c927a40.chunk.js",
-    "static/css/main.0114b7d7.chunk.css",
+    "static/css/main.ef49eb7f.chunk.css",
     "static/js/main.c17c8fec.chunk.js"
   ]
 }
