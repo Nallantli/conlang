@@ -1,7 +1,5 @@
 import React from 'react';
-import './darkTheme.module.scss';
 import './default.scss';
-import styles from './styles.module.scss';
 import fontStyles from './fontStyle.module.css';
 import glossKeys from './glossKeys.json';
 import akamemi from './akamemi.json';
@@ -13,7 +11,7 @@ interface GlossTemplate {
 	"phnt"?: string,
 	"trns": string,
 	"expl"?: string,
-	"data": string[]
+	"data": [string, string]
 }
 
 function interpolate(a: any[], b: any) {
@@ -28,7 +26,7 @@ function interpolate(a: any[], b: any) {
 }
 
 // bruh moment
-function massInterpolate(value: string, callback: (a: string) => any) {
+function massInterpolate(styles: any, value: string, callback: (a: string) => any) {
 	if (!value) {
 		console.log('no value');
 		return undefined;
@@ -54,8 +52,9 @@ function resolveKey(key: string) {
 	return (glossKeys as { [key: string]: string })[key] || key;
 }
 
-function GlossCell(props: { data: [string, string] }) {
-	const [gloss, value] = props.data;
+function GlossCell(props: { data: [string, string], styles: any }) {
+	const { data, styles } = props;
+	const [gloss, value] = data;
 	return (
 		<table className={styles.GlossCell}>
 			<tbody>
@@ -64,7 +63,7 @@ function GlossCell(props: { data: [string, string] }) {
 				</tr>
 				<tr>
 					<td>
-						{massInterpolate(value, unit => {
+						{massInterpolate(styles, value, unit => {
 							if (unit === '') {
 								return undefined;
 							}
@@ -82,8 +81,8 @@ function GlossCell(props: { data: [string, string] }) {
 	);
 }
 
-function GlossPhonemic(props: { data: string }) {
-	const { data } = props;
+function GlossPhonemic(props: { data: string, styles: any }) {
+	const { data, styles } = props;
 	const r = [];
 	let lastHeight = 0;
 	for (let i = 0; i < data.length; i++) {
@@ -216,15 +215,15 @@ function generateFromText(text: string) {
 		.replace(/ū/g, 'u͈');
 }
 
-function Gloss(props: { gloss: GlossTemplate, select: (link: string) => void }) {
-	const { gloss, select } = props;
+function Gloss(props: { styles: any, gloss: GlossTemplate, select: (link: string) => void }) {
+	const { gloss, select, styles } = props;
 	const { data, link, text, phnm, phnt, trns, expl } = gloss;
 	const [glosses, values] = data;
 	const splitGloss = glosses.split(/\s+/g);
 	const splitValue = values.split(/\s+/g);
 	const dataTable = [];
 	dataTable.push(<div>{
-		splitGloss.map((gloss, i) => (<GlossCell data={[gloss, splitValue[i]]} />))
+		splitGloss.map((gloss, i) => (<GlossCell styles={styles} data={[gloss, splitValue[i]]} />))
 	}</div>);
 	return (
 		<div className={styles.Gloss}>
@@ -236,7 +235,7 @@ function Gloss(props: { gloss: GlossTemplate, select: (link: string) => void }) 
 				<span className={fontStyles.FontLatin}>{text.replace(/²/g, '')}</span>
 			</div>
 			<div className={styles.GlossTable}>
-				<GlossPhonemic data={phnm || generateFromText(text)} />
+				<GlossPhonemic styles={styles} data={phnm || generateFromText(text)} />
 				{phnt && <div className={styles.GlossIPA}>[{phnt}]</div>}
 				{dataTable}
 				{trns && <div className={styles.GlossTrans}>{trns}</div>}
@@ -247,7 +246,8 @@ function Gloss(props: { gloss: GlossTemplate, select: (link: string) => void }) 
 }
 
 interface AppProps {
-	query?: string[]
+	query?: string[],
+	styles: any
 }
 interface AppState {
 	query: string[],
@@ -276,7 +276,7 @@ export default class App extends React.Component<AppProps, AppState> {
 		this.state = {
 			query: props.query || [],
 			newQuery: props.query || [],
-			glosses: akamemi || []
+			glosses: (akamemi as GlossTemplate[]) || []
 		};
 	}
 
@@ -311,12 +311,13 @@ export default class App extends React.Component<AppProps, AppState> {
 	}
 
 	render() {
+		const { styles } = this.props;
 		const { query, newQuery, glosses } = this.state;
 		return (
 			<div className="App">
 				<div className={styles.Content}>
 					{(query.length != 0 ? glosses.filter(a => query.includes(a.link)) : glosses)
-						.map(data => (<Gloss gloss={data} select={this.selectGloss} />))}
+						.map(data => (<Gloss styles={styles} gloss={data} select={this.selectGloss} />))}
 				</div>
 				{
 					newQuery.length !== 0 &&
