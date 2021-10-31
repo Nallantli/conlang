@@ -1,5 +1,6 @@
 import React from "react";
 import lexicon from "./lex-formatted.json";
+import { generateFromText, GlossPhonemic } from "./Utils";
 
 function transliterate(s: string) {
 	return s
@@ -195,6 +196,9 @@ function Entry(props: { styles: any, entry: any }) {
 			{entry.lemma.length > 1 && (<div className={styles.EntrySubHeader}>
 				<span className={styles.EntryNounLemma}>{`${entry.lemma[index].replaceAll('²', '')}, ~${entry.lemma[index + 1].replaceAll('²', '')}`}</span>
 			</div>)}
+			<div className={styles.EntryIPA}>
+				<GlossPhonemic styles={styles} data={generateFromText(entry.lemma[index])} />
+			</div>
 			<div className={styles.EntryBody}>
 				{entry.definition.map((def: string, i: number) => (
 					<div key={i} className={styles.EntryDef}>

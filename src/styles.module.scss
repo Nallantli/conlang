@@ -9,8 +9,16 @@
 }
 
 .GlossIPA {
-	font-family  : 'Iosevka', monospace;
-	font-size    : 12px;
+	font-family: 'Iosevka', monospace;
+	font-size  : 12px;
+	margin     : 0;
+}
+
+.EntryIPA {
+	margin-bottom: 20px;
+}
+
+.GlossIPAContainer {
 	margin-top   : 10px;
 	margin-bottom: 10px;
 }
@@ -298,27 +306,28 @@ table td {
 }
 
 .SearchBar {
-	display: grid;
-	position: fixed;
-	top: 0;
-	height: 40px;
-	left: 0;
-	right: 0;
+	display         : grid;
+	position        : fixed;
+	top             : 0;
+	height          : 40px;
+	left            : 0;
+	right           : 0;
+	z-index         : 99;
 	background-color: var(--color-background);
 }
 
 .SearchBar input {
-	display: block;
-	border: none;
-	text-align: center;
+	display      : block;
+	border       : none;
+	text-align   : center;
 	border-bottom: 1px solid var(--color-text);
-	background: none;
-	color: var(--color-text);
-	font-size: 16px;
-	font-family: monospace;
-	padding: 5px;
-	transition: all 0.1s ease-in-out;
-	outline: none;
+	background   : none;
+	color        : var(--color-text);
+	font-size    : 16px;
+	font-family  : monospace;
+	padding      : 5px;
+	transition   : all 0.1s ease-in-out;
+	outline      : none;
 }
 
 .SearchBar input:focus {
