@@ -1,5 +1,17 @@
 [
 	{
+		"link": "5MOYD-1561",
+		"text": "Nēlā set²ah² con²toznā ya sonzā [ne palēn], sa cēz on boscena ne on posēn.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "I think I would be too tired to be able to help [upon arrival] given what I will have had been carrying on the way.",
+		"expl": "",
+		"data": [
+			"Ø-nēl-ā                 set²ah² con²-toz-n-ā                      ya   Ø-sonz-ā                ne   pal-e-:n              sa   cēz-Ø            on      Ø-bos-c-en-a                       ne   on      pos-e-:n",
+			"$3sg.$t-think-$npst.ind $1sg    be_tired-too_much-$fut-$npst.$ind $dat $3sg.$t-help-$npst.$ind $loc arrive-$nmz-$absl.$sg $com reason-$posd.$sg $on.$sg $3sg.$t-carry-$prf-$fut-$npst.$ind $loc $on.$sg be_wide-$nmz-$absl.$sg"
+		]
+	},
+	{
 		"link": "5MOYD-1560",
 		"text": "Tapā nehloī ilequenā set²ah² MATAHUIN, tannā ne ocken yūen.",
 		"phnm": "",
