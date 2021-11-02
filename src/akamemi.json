@@ -1,5 +1,17 @@
 [
 	{
+		"link": "5MOYD-1562",
+		"text": "T²ā set²ah² on ya-melnā Kadixad lūtōn.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "I am the one to whom Khadizhat will give the book.",
+		"expl": "",
+		"data": [
+			"t²-ā            set²ah² on      ya=Ø-mel-n-ā                      Kadixad      lūto-:n",
+			"$cop-$npst.$ind $1sg    $on.$sg $dat=$3sg.$t-give-$fut-$npst.$ind $proper_name book-$absl.$sg"
+		]
+	},
+	{
 		"link": "5MOYD-1561",
 		"text": "Nēlā set²ah² con²toznā ya sonzā [ne palēn], sa cēz on boscena ne on posēn.",
 		"phnm": "",
