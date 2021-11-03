@@ -1,13 +1,13 @@
 [
 	{
 		"link": "5MOYD-1563",
-		"text": "Roteknā on cōsa tinezī ten ilzān.",
+		"text": "Rot²eknā on cōsa tinezī ten ilzān.",
 		"phnm": "",
 		"phnt": "",
 		"trns": "Whoever first enters this castle will be rich.",
-		"expl": "",
+		"expl": "The verb <i>rotekā</i> '(he) is rich,' derives from <i>rotēn</i> 'money' and the suffix <i>-kā-</i> 'full of; described by.' The word for 'money,' in turn, comes from the more archaic <i>rotā</i> '(he) indents it.' The modern language uses the pleonastic <i>sūrotā</i> 'he indents (to) it' as the latter has become more commonly associated with the minting of currency.",
 		"data": [
-			"rotek-n-ā            on      Ø-cōs-a                   tin-ez-ī      ten  ilza-:n",
+			"rot²ek-n-ā           on      Ø-cōs-a                   tin-ez-ī      ten  ilza-:n",
 			"rich-$fut-$npst.$ind $on.$sg $3sg.$t-enter-$npst.$attr one-$ord-$adv this castle-$absl.$sg"
 		]
 	},
