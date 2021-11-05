@@ -1,5 +1,17 @@
 [
 	{
+		"link": "5MOYD-1564",
+		"text": "Mazā, īs sū esden, peryarrā īt²oh² alen sū opatōhzicēn.",
+		"phnm": "",
+		"phnt": "",
+		"trns": "No, not home, they take him to the sobering-up station.",
+		"expl": "<i>Opatōhzā</i> is a unique verb (at least, so far), it can only be used in the reflexive where it means 'to sober up' it otherwise means 'he de-alcohols it,' by analogy with <i>marquetōhzā</i> 'he exsanguinates it.' It would be used like <i>ōhpatōhzecā setah</i> 'I have sobered up' 'I have de-alcoholed myself.' <i>Opān</i> 'alcohol' is the root.",
+		"data": [
+			"maz-ā                   īs   sū   esd-en          Ø-peryarr-ā                   īt²oh²  al-en        sū   opatōhzi-ce-:n",
+			"be_different-$npst.$ind $neg $all house-$absl.$sg $3sg.$t-take_along-$npst.$ind $3pl.$t he-$absl.$sg $all sobering-place-$absl.$sg"
+		]
+	},
+	{
 		"link": "5MOYD-1563",
 		"text": "Rot²eknā on cōsa tinezī ten ilzān.",
 		"phnm": "",
