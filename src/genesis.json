@@ -47,7 +47,8 @@
 				"data": [
 					"Ø-lahu-ē           tiy-en      Ø-sak-ā             on      ma<:>s       isute-:n      sul-a                 sa=t²-a           silhua-huin     ne  sar-Ø               o-rih²-Ø               in  pesk-ī=peske-lat-ē                       al-en      ko    ald-ā            bāmissi-:n",
 					"$3sg.$t-know-$pst.$ind sky-$absl.$sg $3sg.$t-hide-$npst.$ind $subr.$sg sea<$absl.$sg> abyss-$absl.$sg be_infinite-$attr.$npst COM=$cop-$attr.$npst mystery-$absl.$pl $loc space_below-$posd.$sg $refl.$t-surface-$posd.$sg and be_jealous-$adv=be_jealous-become-$pst.$ind he-$absl.$sg $instr pass_by-$npst.$ind eight_thousand_year_period-$absl.$sg"
-				]
+				],
+				"expl": "The language traditionally uses a base-20 system, and <i>bāmissīn</i> uses the root <i>bā</i>, the multiplier for thousands' place. While in modern speech, the base-20 system has been generally overridden by an imported, European base-10 model."
 			},
 			{
 				"trns": "The sky soon developed a plan by which he would take the sea's waters for his own.",
@@ -122,7 +123,7 @@
 				]
 			},
 			{
-				"trns": "Movement was brought to the world, and the storm would wage for a four-hundred years before the sky became clear again.",
+				"trns": "Movement was brought to the world, and the storm would wage for four-hundred years before the sky became clear again.",
 				"text": "Mahterē ya tōm²en saxīn, in otiznenē tauntēs ko īctin morna ne ate narlatā tiyen sicē.",
 				"phnt": "mɑˈtereː ʝa ˈtoːmən̥ saˈʃin̥ ɪn̥ oˈtɪt͜sneneː ˈtaʊ̯n̥tes ko ˈit͜ʃtɪn̥ ˈmɔrna ne ˈate ˈnɑrlataː ˈtiʝən̥ siˈt͜ʃeː",
 				"data": [

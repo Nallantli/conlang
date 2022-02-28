@@ -33,7 +33,7 @@ export function Gloss(props: { noLink?: boolean, hideGloss?: boolean, fontOverri
 				{!hideGloss && dataTable}
 				{trns && <div className={styles.GlossTrans}>{trns}</div>}
 			</div>
-			{expl && <div className={styles.GlossExpl} dangerouslySetInnerHTML={{ __html: expl }}></div>}
+			{!hideGloss && expl && <div className={styles.GlossExpl} dangerouslySetInnerHTML={{ __html: expl }}></div>}
 		</div>
 	);
 }
