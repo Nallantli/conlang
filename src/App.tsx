@@ -4,15 +4,16 @@ import { Search } from "./Search";
 import { Genesis } from "./Genesis";
 
 export default function App() {
-	const urlParams = new URLSearchParams(window.location.search);
 	return <Genesis styles={styles} />;
 	/*
-switch (window.location.hash) {
-case "#/search":
-	return <Search styles={styles} query={urlParams.get('q') || ''} />;
-case "#/genesis":
-	return <Genesis styles={styles} />;
-default:
-	return <Glosser query={urlParams.get('q')?.split('|')} styles={styles} />;
-}*/
+	const urlParams = new URLSearchParams(window.location.search);
+	switch (window.location.hash) {
+	case "#/search":
+		return <Search styles={styles} query={urlParams.get('q') || ''} />;
+	case "#/genesis":
+		return <Genesis styles={styles} />;
+	default:
+		return <Glosser query={urlParams.get('q')?.split('|')} styles={styles} />;
+	}
+	*/
 }
