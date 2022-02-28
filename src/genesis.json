@@ -1,0 +1,143 @@
+[
+	{
+		"title": "Aluposkizen",
+		"tphnt": "aluˈpɔskit͜sən̥",
+		"passages": [
+			{
+				"trns": "Before the modern world had begun, there was only water and air.",
+				"text": "Sohē, ne ate okōwcā tōm²en zōlsa, beih alūn in nīen.",
+				"phnt": "sɔˈeː ne ˈate oˈkoʍt͜ʃaː ˈtoːmən̥ ˈt͜sol̥sa beɪ̯ aˈlun̥ ɪn̥ ˈnijən̥",
+				"data": [
+					"soh-ē           ne   ate-Ø           o-kōw-c-ā                      tōm²-en         zōls-a                beih alu-:n          in  nī-en",
+					"exist-$pst.$ind $loc front-$posd.$sg $refl.$t-begin-$prf-$npst.$ind world-$absl.$sg be_modern-$npst.$attr only water-$absl.$sg and air-$absl.$sg"
+				]
+			},
+			{
+				"trns": "There existed a stark division bounded only by the ocean's surface: above the surface, stretched infinitely upwards, was the light blue of sky, and below the surface, stretched infinitely downwards, was the dark blue of sea.",
+				"text": "Sohē nomēn butla namurpārra mo beih rih² sildūr: t²ē ne rih²met²en, otletī sulī sū met²en, tīrōn²sarrēn, t²ē ne rih²sār, otletī sulī sū sār, masouhresarrēn.",
+				"phnt": "sɔˈeː noˈmen̥ ˈbut͜ɬa namʊrˈparra mo beɪ̯ rɪ ˈsɪlður̥ teː ne rɪˈmetən̥ ˈot͜ɬetiː suˈliː suː ˈmetən tiːˈron̥sɑrren̥ teː ne rɪˈsar̥ ˈotɬetiː suˈliː suː sar̥ masoʊ̯reˈsɑrren̥",
+				"data": [
+					"soh-ē           nom-e-:n              butl-a               namurpār-r-a           mo   beih rih²-Ø            sildu<:>r        t²-ē           ne   rih²-met²-en                  o-tlet-ī             sul-ī            sū   met²-en               tī-rōn²-sarr-e-:n                    t²-ē           ne   rih²-sa<:>r                    o-tlet-ī          sul-ī            sū   sa<:>r                 mas-ouhre-sarr-e-:n",
+					"exist-$pst.$ind divide-$nmz-$absl.$sg be_harsh-$attr.$npst bind-$pass-$attr.$npst $agt only surface-$posd.$sg ocean<$absl.$sg> $cop-$pst.$ind $loc surface-space_above-$absl.$sg $refl.$t-extend-$adv be_infinite-$adv $all space_above-$absl.$sg sky-be_bright-be_blue-$nmz-$absl.$sg $cop-$pst.$ind $loc surface-space_below<$absl.$sg> $refl-extend-$adv be_infinite-$adv $all space_below<$absl.$sg> sea-be_dark-be_blue-$nmz-$absl.$sg"
+				]
+			},
+			{
+				"trns": "The sea was content in the arrangement, because the whole of the sky was laid bare for her to see - but the sky, however, did not share the sentiment.",
+				"text": "Rozlē mās ya dēlun²kēn, ko cēz ollā passa tiyen millē ne ate rān ya em²ā - īs nūhuē paquē on tiyen ten serlikīn.",
+				"phnt": "ˈrɔt͜sleː mas ʝa ˈdeːlʊŋ̥ken̥ ko t͜ʃet͜s ˈɔllaː ˈpɑssa ˈtiʝən̥ ne ˈate ran̥ eˈmaː is ˈnuːʋeː paˈkʷeː ɔn̥ ˈtiʝən̥ tɛn̥ ˈsɛrlikin̥",
+				"data": [
+					"rozl-ē           ma<:>s       ya  dēlun²ke-:n         ko    cēz-Ø          ol-l-ā              passa-Ø          tiy-en      millē  ne  ate-Ø         ra-:n       ya  Ø-em²-ā            īs  Ø-nūhu-ē            paquē   on      tiy-en      ten  serliki-:n",
+					"be_happy-$pst.$ind sea<$absl.$sg> $dat arrangement-$absl.$sg $instr reason-$posd.$sg place-$pass-$npst.$ind entirety-$posd.$sg sky-$absl.$sg wholly $loc front-$posd.$sg she-$absl.$sg $dat $3sg.$t-see-$npst.$ind $neg $3sg.$t-share-$pst.$ind however $subr.$sg sky-$absl.$sg this sentiment-$absl.$sg"
+				]
+			},
+			{
+				"trns": "The sea's water was naturally murky, and the blue light of the sky could not penetrate it more than a few paces.",
+				"text": "Quorē ko ohopram²i masalūn, in īs sūkiztē tīrōn²sarrēn tūrrī demī sū sin xumi.",
+				"phnt": "kʷoˈreː ko ɔˈɔprami ˈmasalun̥ ɪn̥ is ˈsuːkɪt͜steː tiːˈron̥sɑrren̥ ˈturriː deˈmiː suː sɪn̥ ˈʃumi",
+				"data": [
+					"quor-ē           ko    oh-opram²-i-Ø                   mas-alu-:n        in  īs  Ø-sūkizt-ē           tī-rōn²-sarr-e-:n                 tūrr-ī      demī sū  sin xu-mi",
+					"be_murky-$pst.$ind $instr $refl.$t-be_natural-$abstr-$posd.$sg sea-water-$absl.$sg and $neg $3sg.$t-pierce-$pst.$ind sky-be_bright-be_blue-$nmz-$absl.$sg be_deep-$adv more $all few foot-$absl.$pl"
+				]
+			},
+			{
+				"trns": "The sky knew that the sea must be harboring an infinite abyss of mysteries beneath her surface, and grew more and more jealous as millenia passed by.",
+				"text": "Lahuē tiyen sakā on mās isutēn sula sa-t²a silhuahuin ne sar orih², in peskī-peskelatē alen ko aldā bāmissīn.",
+				"phnt": "laˈʋeː ˈtiʝən saˈkaː ɔn̥ mas ˈisuten̥ ˈsula sa ta ˈsɪlwaʋɪn̥ ne sɑr̥ ˈorɪ ɪn̥ ˈpɛskiː pəsˈkelateː ˈalən̥ ko ˈalðaː ˈbaːmɪssin̥",
+				"data": [
+					"Ø-lahu-ē           tiy-en      Ø-sak-ā             on      ma<:>s       isute-:n      sul-a                 sa=t²-a           silhua-huin     ne  sar-Ø               o-rih²-Ø               in  pesk-ī=peske-lat-ē                       al-en      ko    ald-ā            bāmissi-:n",
+					"$3sg.$t-know-$pst.$ind sky-$absl.$sg $3sg.$t-hide-$npst.$ind $subr.$sg sea<$absl.$sg> abyss-$absl.$sg be_infinite-$attr.$npst COM=$cop-$attr.$npst mystery-$absl.$pl $loc space_below-$posd.$sg $refl.$t-surface-$posd.$sg and be_jealous-$adv=be_jealous-become-$pst.$ind he-$absl.$sg $instr pass_by-$npst.$ind eight_thousand_year_period-$absl.$sg"
+				]
+			},
+			{
+				"trns": "The sky soon developed a plan by which he would take the sea's waters for his own.",
+				"text": "Tanē necī tiyen alōs ko-itōhcenā alen masalumi ya opār.",
+				"phnt": "taˈneː neˈt͜ʃiː ˈtiʝən̥ aˈlos ko iˈtoʔt͜ʃenaː ˈalən̥ maˈsalumi ʝa oˈpar̥",
+				"data": [
+					"Ø-tan-ē            necī tiy-en      alo<:>s       ko=i-tōh-ce-n-ā                   al-en      mas-alu-mi        ya  o-pār-Ø-Ø",
+					"$3sg.$t-make-$pst.$ind soon sky-$absl.$sg plan<$absl.$sg> $instr=$3pl.$t-take-$prf-FUT-$npst.$ind he-$absl.$sg sea-water-$absl.$pl $dat $refl.$t-hold-$nmz-$posd.$sg"
+				]
+			},
+			{
+				"trns": "With the breadth of the northern winds, the sky secretly gathered the grains of sand that floated to the surface and joined them together into a black stone.",
+				"text": "Isommē, modī posi alekterotosin, tiyen zenzī kelapobumi yosa sū rit²en in īhtlūnē alen sū izen xalla.",
+				"phnt": "iˈsɔmmeː moˈðiː ˈposi aləkteˈrotosɪn̥ ˈtiʝən̥ ˈt͜ʃɛn̥t͜siː kelaˈpobumi ˈʝosa suː ˈritən̥ ɪn̥ iʔˈt͜ɬuːneː ˈalən̥ suː ˈit͜sən̥ ˈʃɑlla",
+				"data": [
+					"i-somm-ē             Ø-mod-ī       posi-Ø          alekte-rotos-in    tiy-en      zenz-ī        kela-pobu-mi       yos-a           sū  rit²-en         in  ī-htlūn-ē             al-en      sū  iz-en         xall-a",
+					"$3pl.$t-gather-$pst.$ind $3sg.$t-use-$adv breadth-$posd.$sg north-wind-$absl.$pl sky-$absl.$sg be_secret-$adv sand-grain-$absl.$pl float-$attr.$npst $all surface-$absl.$sg and $3pl.$t-combine-$pst.$ind he-$absl.$sg $all stone-$absl.$sg be_black-$attr.$npst"
+				]
+			},
+			{
+				"trns": "With the heat of the southern winds, the sky blew fire into the black stone, and when it was sufficiently heated, dropped it into the waters below.",
+				"text": "Muzē, modī kum²i nizsarrotosin, tiyen kēs sū xallizen, in enseyē, ne lo kun²yerā cinī, sū alumi ne sār.",
+				"phnt": "muˈt͜seː moˈðiː ˈkumi nɪt͜sɑrˈrotosɪn̥ tiʝən̥ kes suː ˈʃɑllit͜sən̥ ɪn̥ ˈɛn̥seʝeː ne lo ˈkʊnjeraː t͜ʃiˈniː suː ˈalumi ne sar̥",
+				"data": [
+					"Ø-muz-ē            Ø-mod-ī       kum²i-Ø      nizsar-rotos-in    tiy-en      ke<:>s        sū  xall-iz-en             in  ens-ey-ē          ne  lo-Ø           kun²-y-er-ā               cin-ī             sū  alu-mi        ne  sa<:>r",
+					"$3sg.$t-blow-$pst.$ind $3sg.$t-use-$adv heat-$posd.$sg south-wind-$absl.$pl sky-$absl.$sg fire<$absl.$sg> $all be_black-stone-$absl.$sg and fall-CAUS-$pst.$ind $loc moment-$posd.$sg be_hot-CAUS-$pass-$npst.$ind be_sufficient-$adv $all water-$absl.$pl $loc space_below<$absl.$sg>"
+				]
+			},
+			{
+				"trns": "The sea boiled and the water turned to steam, rising into skies above.",
+				"text": "Oposkē mās in eh²latē alūn tuhīx, noctē sū tiyē ne met²en.",
+				"phnt": "oˈpɔskeː mas ɪn̥ əˈlateː aˈlun̥ tʊˈiʃ ˈnɔt͜ʃteː suː tiˈʝeː ˈmetən̥",
+				"data": [
+					"o-posk-ē            ma<:>s       in  Ø-eh²lat-ē           alu-:n        tuhi<:>x      noct-ē       sū  tiy-ē       ne  met²-en",
+					"$refl.$t-boil-$pst.$ind sea<$absl.$sg> and $3sg.$t-become-$pst.$ind water-$absl.$sg steam-$absl.$sg rise-$pst.$ind $all sky-$absl.$pl $loc space_above-$absl.$sg"
+				]
+			},
+			{
+				"trns": "The sky's light blue became dark and grey until the dividing line in the horizon was no longer visible.",
+				"text": "Ouhrelatē in izm²elatē tīrōen sū tlete īs en²rasā lī arkōn inoma ne meihsem²ēn.",
+				"phnt": "oʊ̯ˈrelateː ɪn̥ ɪt͜sˈmelateː ˈtiːrowen̥ suː ˈt͜ɬete is ˈɛnrasaː liː ˈɑr̥kon̥ ˈinoma ne ˈmeɪ̯semen̥",
+				"data": [
+					"ouhre-lat-ē            in  iz-m²e-lat-ē              tī-rō-en          sū  tlet-e-Ø           īs  en²-r-as-ā            lī      arko-:n      i-nom-a                ne  meihsem²e-:n",
+					"be_dark-become-$pst.$ind and stone-$qual-become-$pst.$ind sky-light-$absl.$sg $all extend-$nmz-$posd.$sg $neg see-$pass-POT-$npst.$ind anymore line-$absl.$sg $3pl.$t-divide-$attr.$npst $loc horizon-$absl.$sg"
+				]
+			},
+			{
+				"trns": "But the sky had taken more than he could hold, and the air grew heavy and dense.",
+				"text": "Pa itōhē tiyen ami tē ipārasā alen, in aihrelatē in nītelatē nīen.",
+				"phnt": "pa iˈtoʔˈeː ˈtiʝən̥ ˈami teː iˈpaːrasaː ˈalən̥ ɪn̥ aɪ̯ˈrelateː ɪn̥ niːˈtelateː ˈnijen̥",
+				"data": [
+					"pa  i-tōh-ē            tiy-en      ami     tē        i-pār-as-ā              al-en      in  aihre-lat-ē             in  nīte-lat-ē           nī-en",
+					"but $3pl.$t-take-$pst.$ind sky-$absl.$sg $subr.$pl more_than $3pl.$t-hold-POT-$npst.$ind he-$absl.$sg and be_heavy-become-$pst.$ind and thick-become-$pst.$ind air-$absl.$sg"
+				]
+			},
+			{
+				"trns": "A great storm brew in the heavens above, and the sky's jealous pursuit collapsed into a deafening display of rain and thunder.",
+				"text": "Otobē tauntēs nuza ne tiyē ne met²en, in ukictē huōte peska tiyen sū raīn berōkra t²a suhtēn in picūn.",
+				"phnt": "ˈotobeː ˈtaʊ̯n̥tes ˈnut͜sa ne tiˈʝeː ne ˈmetən̥ ɪn̥ uˈkɪt͜ʃteː ˈʋote ˈpɛska ˈtiʝən̥ suː raˈin̥ beˈrokra ta sʊˈten̥ ɪn̥ piˈt͜ʃun̥",
+				"data": [
+					"o-tob-ē                taunte<:>s     nuz-a            ne  tiy-ē       ne  met²-en             in  ukict-ē          huōte-Ø         pesk-a               tiy-en      sū  rai-:n            berōk-r-a             t²-a          suht-e-:n        in  picu-:n",
+					"$refl.$t-agitate-$pst.$ind storm<$absl.$sg> be_big-$attr.$npst $loc sky-$absl.$pl $loc space_above-$absl.$sg and collapse-$pst.$ind pursuit-$posd.$sg be_jealous-$attr.$npst sky-$absl.$sg $all semblance-$absl.$sg deafen-$pass-$attr.$npst $cop-$attr.$npst rain-$nmz-$absl.$sg and thunder-$absl.$sg"
+				]
+			},
+			{
+				"trns": "The waters below became violent, with waves rising like mountains and towering white foam clashing against lightning strikes.",
+				"text": "Kum²uh²latē alumi ne sār, noctē sisin ko ser noctizē in okitē tīqueluōn kurōkm²a alsī ipēs picūn.",
+				"phnt": "kumʊˈlateː ˈalumi ne sar̥ ˈnɔt͜ʃteː ˈsisɪn̥ ko sɛr̥ ˈnɔt͜ʃtit͜seː ɪn̥ ˈokiteː tiːˈkʷelʊwon̥ kuˈrokma ˈɑlsiː iˈpes piˈtʃun̥",
+				"data": [
+					"kum²uh²-lat-ē             alu-mi        ne  sa<:>r               noct-ē       sis-in       ko    ser-Ø       noctiz-ē         in  o-kit-ē            tīque-luo-:n              kurōk-m²-a           als-ī          ip-e-:s            picu-:n",
+					"be_violant-become-$pst.$ind water-$absl.$pl $loc space_below<$absl.$sg> rise-$pst.$ind wave-$absl.$pl $instr way-$posd.$sg mountain-$absl.$sg and $refl.$t-hit-$pst.$ind be_white-sea_foam-$absl.$sg tower-$qual-$attr.$npst be_against-$adv strike-$nmz-$posd.$pl lightning-$absl.$sg"
+				]
+			},
+			{
+				"trns": "Movement was brought to the world, and the storm would wage for a four-hundred years before the sky became clear again.",
+				"text": "Mahterē ya tōm²en saxīn, in otiznenē tauntēs ko īctin morna ne ate narlatā tiyen sicē.",
+				"phnt": "mɑˈtereː ʝa ˈtoːmən̥ saˈʃin̥ ɪn̥ oˈtɪt͜sneneː ˈtaʊ̯n̥tes ko ˈit͜ʃtɪn̥ ˈmɔrna ne ˈate ˈnɑrlataː ˈtiʝən̥ siˈt͜ʃeː",
+				"data": [
+					"maht-er-ē          ya  tōm²-en       sax-i-:n           in  o-tizn-en-ē              taunte<:>s     ko    īctin        morn-a       ne  ate-Ø         nar-lat-ā                tiy-en      sicē",
+					"bring-$pass-$pst.$ind $dat world-$absl.$sg move-$abstr-$absl.$sg and $refl.$t-scale-FUT-$pst.$ind storm<$absl.$sg> $instr four_hundred year-$absl.$pl $loc front-$posd.$sg be_clear-become-$npst.$ind sky-$absl.$sg again"
+				]
+			},
+			{
+				"trns": "All the while, the black stone of the sky sank further and further into the deep.",
+				"text": "Sāpit²ē, ne tletēn, tīxallizen ānnalle sū ānnalle tūrrēn.",
+				"phnt": "ˈsaːpiteː ne t͜ɬeˈten̥ tiːˈʃɑllit͜sən̥ ˈannɑlle suː ˈannɑlle ˈturren̥",
+				"data": [
+					"sāpit²-ē     ne  tlet-e-:n          tī-xall-iz-en              ānnalle sū  ānnalle tūrr-e-:n",
+					"sink-$pst.$ind $loc extend-$nmz-$absl.$sg sky-be_black-stone-$absl.$sg further $all further be_deep-$nmz-$absl.$sg"
+				]
+			}
+		]
+	}
+]
