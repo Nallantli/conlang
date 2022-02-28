@@ -25,6 +25,7 @@ export interface GenesisState {
 interface PassageTemplate {
 	title: string,
 	tphnt: string,
+	image: string,
 	passages: GlossTemplate[];
 }
 
@@ -43,14 +44,15 @@ export class Genesis extends React.Component<GenesisProps, GenesisState> {
 		const passagemap = genesis as PassageTemplate[];
 		return (<div className='App'>
 			<div className={styles.Content}>
-				{(genesis as PassageTemplate[]).map(section =>
-				(<div>
+				{(genesis as PassageTemplate[]).map(({ title, tphnt, image, passages }) =>
+				(<div style={{display: 'grid'}}>
 					<div className={styles.GenesisHeader}>
-						{section.title}
-						<div className={styles.GenesisHeaderIPA}>[{section.tphnt}]</div>
+						{title}
+						<div className={styles.GenesisHeaderIPA}>[{tphnt}]</div>
 					</div>
+					{image && <img className={styles.GenesisImage} src={process.env.PUBLIC_URL + `/${image}`} />}
 					<div>
-						{section.passages.map(data => (<Gloss fontOverride={fontStyleNames[fontOverrideIndex]} noLink={true} hideGloss={hideGloss} styles={styles} gloss={data} select={() => { }} />))}
+						{passages.map(data => (<Gloss fontOverride={fontStyleNames[fontOverrideIndex]} noLink={true} hideGloss={hideGloss} styles={styles} gloss={data} select={() => { }} />))}
 					</div>
 				</div>)
 				)}
