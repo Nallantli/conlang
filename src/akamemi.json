@@ -1,5 +1,29 @@
 [
 	{
+		"link": "MISC-JAL",
+		"text": "Ci feil a físe, ozmoétet Joánge Jou jas gánte, gánte a komiá canthién, hna ci páita komé - iségna amm'a ségna in ozmágei páinou. Dhet-oscimétet pai jas Joánge Jou.",
+		"phnm": "",
+		"phnt": "ɕi feɪ̯l a ˈfisɛ ɔzˈmʷo̯etɛt̚ ˈʑʷo̯aŋgɛ ʑoʊ̯ ʑas ˈgan̥tɛ ˈgan̥tɛ a kɔˈmʲɪ̯a ɕən̥ˈθʲɪ̯en n̥a ɕi ˈpaɪ̯tə kɔˈme ɪˈseɣnə ˈammə ˈseɣnə in ɔzˈmagɛɪ̯ ˈpaɪ̯nɔʊ̯ | ðɛt‿ɔsɕɪˈmetɛt̚ paɪ̯ ʑas ˈʑʷo̯aŋgɛ ʑoʊ̯",
+		"trns": "Once, Zhuang Zhou dreamt that he was a butterfly, a butterfly that fluttered happily, and happy he was with himself - doing that which he wanted to do. He did not know that he was Zhuang Zhou.",
+		"expl": "",
+		"data": [
+			"ci   feil   a     físe   oz-moét-et       Joánge_Jou  jas       gánte     gánte     a     kom-iá        canthién hn=a      ci   pái-ta    komé     i-ségn-a     am-m'=a         ségn-a     in   oz-mág-ei        pái-nou   dhe=cimét-et   pai  set  pái-ta    Joánge_Jou",
+			"$loc moment $attr be_old $refl-dream-$pst Zhuang_Zhou $cop.$adv butterfly butterfly $attr be_happy-$adv flutter  and=$attr $loc $3sg-this be_happy $pot-do-$adv $pl-$subr=$attr want-$subj $rel $refl-want-$subj $3sg-that $neg=know-$pst $3sg $cop $3sg-this Zhuang_Zhou"
+		]
+	},
+	{
+		"link": "MISC-QUA",
+		"text": "Tuerē Cuān Cō, ne aldelomi, tā ōtah monentūn, on monentūn kōhuatehza rozlī, in rozla sū on etah - ikī ami ika xumā on etah. Īs lahuē tā ōtah Cuān Cō.",
+		"phnm": "",
+		"phnt": "ˈtuereː t͜ʃuˈan̥ t͜ʃoː ne ɑl̪ˈðelomi taː ˈoːtɑ moˈnɛn̥tun̥ ɔn̥ moˈnɛn̥tun̥ koːˈʋatəʔt͜sa ˈrɔt͜sliː ɪn̥ ˈrɔt͜sla ɔn̥ ˈetɑ iˈkiː ˈami ˈika ʃuˈmaː ɔn̥ ˈetɑ | is laˈʋeː taː ˈoːtɑ t͜ʃuˈan̥ t͜ʃoː",
+		"trns": "Once, Zhuang Zhou dreamt that he was a butterfly, a butterfly that fluttered happily, and happy he was with himself - doing that which he wanted to do. He did not know that he was Zhuang Zhou.",
+		"expl": "",
+		"data": [
+			"Ø-tuer-ē           Cuān_Cō     ne   aldelo-mi               t-ā             ōtah  monentu-:n          on    monentu-:n          kōhuatehz-a         rozl-ī        in  rozl-a               sū   ōtah  i-k-ī           ami       i-k-a                  Ø-xum-ā                 on    etah       īs   Ø-lahu-ē               t-ā             ōtah  Cuān_Cō",
+			"$3sg.$t-dream-$pst Zhuang_Zhou $loc long_ago_time-$absl.$pl $cop-$npst.$ind $refl butterfly-$absl.$sg $subr butterfly-$absl.$sg flutter-$npst.$attr be_happy-$adv and be_happy-$npst.$attr $all $refl $3pl.$t-do-$adv $subr.$pl $3pl.$t-do-$npst.$attr $3sg.$t-want-$npst.$ind $subr $3sg.$refl $neg $3sg.$t-know-$pst.$ind $cop-$npst.$ind $refl Zhuang_Zhou"
+		]
+	},
+	{
 		"link": "5MOYD-1564",
 		"text": "Mazā, īs sū esden, peryarrā īt²oh² alen sū opatōhzicēn.",
 		"phnm": "",
@@ -73,7 +97,7 @@
 	},
 	{
 		"link": "5MOYD-1558",
-		"text": "Peryarrē īt²oh² Husein āh²ca ne olup samī sū noctizen.",
+		"text": "Peryarrē īt²oh² Usein āh²ca ne olup samī sū noctizen.",
 		"phnm": "",
 		"phnt": "",
 		"trns": "They took with them Huseyn who had not gone to the mountain ever in his life.",

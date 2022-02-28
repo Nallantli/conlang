@@ -1,6 +1,7 @@
 import React from "react";
+import { GlossPhonemic } from "./GlossPhonemic";
 import lexicon from "./lex-formatted.json";
-import { generateFromText, GlossPhonemic } from "./Utils";
+import { generateFromText } from "./Utils";
 
 function transliterate(s: string) {
 	return s

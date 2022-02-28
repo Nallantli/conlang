@@ -1,55 +1,24 @@
+import glossKeys from './glossKeys.json';
 
+export interface GlossTemplate {
+	"link": string,
+	"text": string,
+	"phnm"?: string,
+	"phnt"?: string,
+	"trns": string,
+	"expl"?: string,
+	"data": [string, string]
+}
 
-export function GlossPhonemic(props: { data: string, styles: any }) {
-	const { data, styles } = props;
-	const r = [];
-	let lastHeight = 0;
-	for (let i = 0; i < data.length; i++) {
-		if (data[i] === '{') {
-			let token = '';
-			for (let j = i + 1; j < data.length; j++) {
-				if (data[j] === '}') {
-					i = j;
-					break;
-				}
-				token += data[j];
-			}
-			const token_parts = token.split(':');
-			const newHeight = parseInt(token_parts[1]) - 1;
-			if (newHeight >= lastHeight) {
-				r.push((
-					<span
-						className={styles[`level-${token_parts[1]}`]}
-					>{token_parts[0]}
-						<span
-							className={styles["level-after-bottom"]}
-							style={{
-								top: `calc(100% + ${(lastHeight * 2) + 5}px)`,
-								height: `${(newHeight - lastHeight) * 2}px`,
-								backgroundImage: `linear-gradient(to ${(newHeight - lastHeight) % 2 === 0 ? 'top' : 'bottom'}, var(--color-text) 50%, rgba(255, 255, 255, 0) 0%)`
-							}}
-						></span></span>));
-			} else {
-				r.push((
-					<span
-						className={styles[`level-${token_parts[1]}`]}
-					>{token_parts[0]}
-						<span
-							className={styles["level-after-top"]}
-							style={{
-								top: `calc(100% + ${(newHeight * 2) + 5}px)`,
-								height: `${(lastHeight - newHeight) * 2}px`,
-								backgroundImage: `linear-gradient(to ${(lastHeight - newHeight) % 2 === 0 ? 'bottom' : 'top'}, var(--color-text) 50%, rgba(255, 255, 255, 0) 0%)`
-							}}
-						></span></span>));
-			}
-			lastHeight = newHeight;
-		} else {
-			r.push(data[i]);
-			lastHeight = 0;
-		}
-	}
-	return (<div className={styles.GlossIPA}>/{r}/</div>);
+export interface GlosserProps {
+	query?: string[],
+	styles: any
+}
+
+export interface GlosserState {
+	query: string[],
+	newQuery: string[],
+	glosses: GlossTemplate[]
 }
 
 export function generateFromText(text: string) {
@@ -94,14 +63,16 @@ export function generateFromText(text: string) {
 		.replace(/ū/g, 'u͈');
 }
 
-function transliterate(s: string) {
+export function transliterate(s: string) {
 	return s
 		.replace(/²/g, "")
-		.replace(/([^\sa-zāēīōū])/g, "")
 		.replace(/qu/g, "q")
+		.replace(/Qu/g, "Q")
 		.replace(/hu/g, "w")
+		.replace(/Hu/g, "W")
 		.replace(/lh/g, "ly")
-		.replace(/tl/g, 'j');
+		.replace(/tl/g, 'j')
+		.replace(/Tl/g, 'J');
 }
 
 function getSyllableWeight(syllable: string) {
@@ -132,4 +103,42 @@ function getSyllableWeight(syllable: string) {
 			return 0;
 		}
 	}
+}
+
+function interpolate(a: any[], b: any) {
+	let c = [];
+	for (let i = 0; i < a.length; i++) {
+		c.push(a[i]);
+		if (i < a.length - 1) {
+			c.push(b);
+		}
+	}
+	return c;
+}
+
+// bruh moment
+export function massInterpolate(styles: any, value: string, callback: (a: string) => any) {
+	if (!value) {
+		console.log('no value');
+		return undefined;
+	}
+	return interpolate(
+		value.split('=').map(
+			u => interpolate(
+				u.split('-').map(
+					u => interpolate(
+						u.split('<').map(
+							u => interpolate(
+								u.split('>').map(
+									u => interpolate(
+										u.split('.').map(callback),
+										(<span className={styles.GlossSeparator}>.</span>))),
+								(<span className={styles.GlossSeparator}>&gt;</span>))),
+						(<span className={styles.GlossSeparator}>&lt;</span>))),
+				(<span className={styles.GlossSeparator}>-</span>))),
+		(<span className={styles.GlossSeparator}>=</span>));
+}
+
+export function resolveKey(key: string) {
+	return (glossKeys as { [key: string]: string })[key] || key;
 }

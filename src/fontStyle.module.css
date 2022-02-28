@@ -18,6 +18,11 @@
 	src        : url(fonts/Tozwanseer.ttf);
 }
 
+@font-face {
+	font-family: "Akataneen";
+	src        : url(fonts/Akataneen.ttf);
+}
+
 .FontEtlSerif {
 	font-family: 'On Serwal';
 }
@@ -28,10 +33,19 @@
 
 .FontEtlGothic {
 	font-family: 'Serwal Godika';
+	font-size: 28px;
 }
 
 .FontEtlBlock {
 	font-family: 'Tozwanseer';
+	text-transform: lowercase;
+}
+
+.FontEtlAkataneen {
+	font-family: 'Akataneen';
+	text-transform: lowercase;
+	font-size: 22px;
+	line-height: 30px;
 }
 
 .FontLatin {
