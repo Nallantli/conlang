@@ -194,6 +194,7 @@
 			{
 				"trns": "Some glass that had not yet turned into fish molded with the still hot stone, becoming etched like scales onto its body.",
 				"text": "Itlūnrē tōlin rahuomi eh²lata īs sū oltumi suloī ya izen kum²a antuē, totozrelatē ko ser bisesin sū izranās.",
+				"phnt": "iˈtlunreː ˈtoːlɪn̥ ˈraʋomi əˈlata is suː ˈɔl̥tumi ˈsuloiː ʝa ˈit͜sən̥ ˈkuma ˈɑn̥tʊweː totɔt͜sˈrelateː ko sɛr̥ ˈbisesɪn̥ suː ˈɪt͜sranas",
 				"data": [
 					"itlūn-r-ē               tōlin rahuo-mi        eh²lat-a           īs   sū   oltu-mi        suloī ya   iz-en           kum²-a             antuē totoz-re-lat-ē              ko     ser-Ø         bises-in        sū   iz-rana<:>s",
 					"combine-$pass-$pst.$ind some  glass-$absl.$pl become-$attr.$npst $neg $all fish-$absl.$pl yet   $dat stone-$absl.$sg be_hot-$attr.$npst still etch-$pass-become-$pst.$ind $instr way-$posd.$sg scale-$absl.$pl $all stone-body<$absl.$sg>"
@@ -202,6 +203,7 @@
 			{
 				"trns": "The stone finally eroded into the shape of a great serpent as the years of storm passed onward.",
 				"text": "Oandequē izen rah²m²ī sū istatūn t²a nuzhuatān ne aldā ān moron tauntēs.",
+				"phnt": "oˈɑnðekʷeː ˈit͜sən̥ rɑˈmiː suː ˈɪstatun̥ ta ˈnʊt͜swatan̥ ne ˈɑlðaː an̥ ˈmorɔn̥ ˈtaʊ̯n̥tes",
 				"data": [
 					"o-andequ-ē               iz-en           rah²m²-ī      sū   istatu-:n       t²-a             nuz-huata-:n           ne   ald-ā              ān        mor<o>n         taunte<:>s",
 					"$refl.$t-erode-$pst.$ind stone-$absl.$sg be_final-$adv $all shape-$absl.$sg $cop-$attr.$npst be_big-snake-$absl.$sg $loc pass_by-$ind.$npst like_this year<$posd.$pl> storm<$absl.$sg>"
@@ -210,6 +212,7 @@
 			{
 				"trns": "The great serpent was cursed by the wind by which it had been made, and unlike for the fish that swam before it, the water was poisonous to breath.",
 				"text": "Secrē on nuzhuatān mo rotōs mo-tanreca, in sīhasm²ē īs-ko ser t²ā ya oltumi dole ne aten alūn ya tokā.",
+				"phnt": "ˈsɛt͜ʃreː ɔn̥ ˈnʊt͜swatan̥ mo roˈtos mo ˈtɑnret͜ʃa ɪn̥ ˈsiʔɑsmeː is ko sɛr̥ taː ʝa ˈɔl̥tumi ˈðole ne ˈatən̥ aˈlun̥ ʝa toˈkaː",
 				"data": [
 					"sec-r-ē               on        nuz-huata-:n           mo   roto<:>s       mo=tan-r-ec-a                    in  sīhas-m²-ē             īs=ko       ser-Ø         t²-ā            ya   oltu-mi        dol-e           ne   at-en            alu-:n          ya   Ø-tok-ā",
 					"curse-$pass-$pst.$ind $subr.$sg be_big-snake-$absl.$sg $agt wind-$absl.$sg $agt=make-$pass-$prf-$attr.$npst and poison-$qual-$pst.$ind $neg=$instr way-$posd.$sg $cop-$ind.$npst $dat fish-$absl.$pl swim-$attr.$pst $loc before-$absl.$sg water-$absl.$sg $dat $3sg.$t-breathe-$npst.$ind"
@@ -218,6 +221,7 @@
 			{
 				"trns": "He was forced to breach the surface - and though fortunately the storm had begun to fade by this time - he could never return to the deep.",
 				"text": "Xerā alen huelquā sū rit²en - aldowcē inquē zīasi kem²ī tauntēs ne ten lōn - īs lem²asē alen sū tūrrēn sicē.",
+				"phnt": "ʃeˈraː ˈalən̥ ˈʋel̥kʷaː suː ˈritən̥ ˈɑlðɔʍt͜ʃeː ˈɪŋ̥kʷeː ˈt͜sijasi keˈmiː ˈtaʊ̯n̥tes ne tɛn̥ lon̥ is ˈlemaseː ˈalən̥ suː ˈturren̥ siˈt͜ʃeː",
 				"data": [
 					"Ø-x-er-ā                       al-en        huelqu-ā          sū   rit²-en           ald-ow-c-ē                inquē    zīasi    kem²-ī            taunte<:>s       ne   ten  lo-:n            īs   lem²-as-ē             al-en        sū   tūrr-e-:n              sicē",
 					"$3sg.$t-$caus-$pass-$npst.$ind he-$absl.$sg breach-$npst.$ind $all surface-$absl.$sg fade-start-$prf-$pst.$ind and_thus although be_fortunate-$adv storm<$absl.$sg> $loc this moment-$absl.$sg $neg return-$pot-$pst.$ind he-$absl.$sg $all be_deep-$nmz-$absl.$sg again"
@@ -226,6 +230,7 @@
 			{
 				"trns": "The great serpent swam into existence a great whirlpool, that sucked from the bottom of the ocean a mountain on which the he could lay down his land.",
 				"text": "Tanē nuzhuatān dolī sū sohīn eppalutlepōn nuza, in eppe tō sildurkotōn noctizen ne-pan²yasa alen omazū.",
+				"phnt": "taˈneː ˈnʊzwatan̥ ðoˈliː suː sɔˈin̥ ɛppaˈlut͜ɬepon̥ ˈnut͜sa ɪn̥ ˈɛppe toː sɪlˈðʊr̥koton̥ ˈnɔt͜ʃtit͜sən̥ ne ˈpɑnjasa ˈalən̥ ˈomat͜suː",
 				"data": [
 					"Ø-tan-ē                nuz-huata-:n           dol-ī     sū   soh-i-:n               epp-alu-tlepo-:n          nuz-a              in  Ø-epp-e                 tō   sildur-koto-:n              noctiz-en          ne=Ø-pan²-y-as-a                             al-en        o-mazū-Ø",
 					"$3sg.$t-make-$pst.$ind be_big-snake-$absl.$sg swim-$adv $all exist-$abstr-$absl.$sg suck-water-ring-$absl.$sg be_big-$attr.$npst and $3sg.$t-suck-$attr.$pst $abl ocean-bottom_part-$absl.$sg mountain-$absl.$sg $loc=$3sg.$t-lie_down-$caus-$pot-$attr.$npst he-$absl.$sg $refl.$t-land-$posd.$sg"
@@ -234,6 +239,7 @@
 			{
 				"trns": "And so as the summit broke the surface of the water, the first island was made.",
 				"text": "Mezrē inquē ne picā akēx alurit²en kisren tineza.",
+				"phnt": "ˈmɛt͜sreː ˈɪŋ̥kʷeː ne piˈt͜ʃaː aˈkeʃ aˈluritən̥ ˈkɪsrən̥ ˈtinet͜sa",
 				"data": [
 					"mez-r-ē              inquē    ne   Ø-pic-ā                  ake<:>x           alu-rit²-en             kisr-en          tin-ez-a",
 					"make-$pass-$pst.$ind and_thus $loc $3sg.$t-break-$npst.$ind summit<$absl.$sg> water-surface-$absl.$sg island-$absl.$sg one-$ord-$attr.$npst"
@@ -242,6 +248,7 @@
 			{
 				"trns": "The land was barren expanse of sand, and the great serpent breathed life into it, shedding his scales to plant the seeds of colorful flowers and grasses that would come to decorate his domain.",
 				"text": "T²ē mazūen kelakabūn norda, in tokē sū tīen nuzhuatān, inait²ī alen obiseus ya īhhuot²ā tezās somomi tōlleka in pexin mirkelatena dahzec alen.",
+				"phnt": "teː maˈt͜suwən̥ keˈlakabun̥ ˈnɔrða ɪn̥ toˈkeː suː ˈtijən̥ ˈnʊt͜swatan̥ iˈnaitiː ˈalən̥ ˈobiseʊ̯s ʝa ˈiʔwotaː teˈt͜sas ˈsomomi ˈtolleka ɪn̥ ˈpeʃɪn̥ mɪr̥keˈlatena dɑˈt͜sɛt͜ʃ ˈalən̥",
 				"data": [
 					"t²-ē           mazū-en        kela-kabu-:n                  nord-a               in  tok-ē             sū   tī-en          nuz-huata-:n           i-nait²-ī         al-en        o-bise<u>s                ya   ī-hhuot²-ā               teza-:s        somo-mi          tōllek-a                in  pex-in          Ø-mirk-elat-en-a                         dahzec-Ø         al-en",
 					"$cop-$pst.$ind land-$absl.$sg sand-untouched_land-$absl.$sg be_empty-$attr.$npst and breathe-$pst.$ind $all this-$absl.$sg be_big-snake-$absl.$sg $3pl.$t-shed-$adv he-$absl.$sg $refl.$t-scale<$posd.$pl> $dat $3pl.$t-plant-$npst.$ind seed-$posd.$pl flower-$absl.$pl be_colorful-$attr.$npst and grass-$absl.$pl $3sg.$t-decorate-become-$fut-$attr.$npst domain-$posd.$sg he-$absl.$sg"
@@ -250,6 +257,7 @@
 			{
 				"trns": "The scales grew and became the leaves of trees and petals of flowers, blossoming in the light of the now clear sky.",
 				"text": "Osahpē bisesin in yeh²latē muōlu siphuen in atat²u somomi; kukē ne rō tiyen narlateca nehloī.",
+				"phnt": "ˈosɑpeː ˈbisesɪn̥ ɪn̥ ʝəˈlateː mʊˈwoːlu ˈsɪpwən̥ ɪn̥ ˈatatu ˈsomomi kuˈkeː ne roː ˈtiʝən̥ nɑrˈlatet͜ʃa nəˈloiː",
 				"data": [
 					"o-sahp-ē                bises-in        in  y-eh²lat-ē               muōl-u         siphu-en       in  atat²-u         somo-mi          kuk-ē             ne   rō-Ø            tiy-en        nar-lat-ec-a                     nehloī",
 					"$refl.$t-grow-$pst.$ind scale-$absl.$pl and $3pl.$t-become-$pst.$ind leaf-$posd.$pl tree-$absl.$sg and petal-$posd.$pl flower-$absl.$pl blossom-$pst.$ind $loc light-$posd.$sg sky-$absl.$sg be_clear-become-$prf-$attr.$npst now"
@@ -258,6 +266,7 @@
 			{
 				"trns": "When he saw his work as complete, he hoarded himself into his garden, vanishing from the view of both the sky and sea.",
 				"text": "Osūsakē ne em²ā alen kōh²recā os on et²ah² sū oihuot²elar; istlē tō em²i mer tiyen in mās.",
+				"phnt": "oˈsuːsakeː ne eˈmaː ˈalən̥ ˈkoʔret͜ʃaː ɔs ɔn̥ ˈetɑ suː oiˈʋotelɑr̥ ˈɪst͜ɬeː toː ˈemi mɛr̥ ˈtiʝən̥ ɪn̥ mas",
 				"data": [
 					"o-sū-sak-ē                   ne   Ø-em²-ā                al-en        kōh²-r-ec-ā                  os-Ø-Ø              on_et²ah² sū   o-ihuot²el<a>r             istl-ē           tō   em²-i-Ø              mer  tiy-en        in  ma<:>s",
 					"$refl.$t-$int-hide-$pst.$ind $loc $3sg.$t-see-$npst.$ind he-$absl.$sg finish-$pass-$prf-$npst.$ind work-$nmz-$posd.$sg $drefl    $all $refl.$t-garden<$posd.$sg> vanish-$pst.$ind $abl see-$abstr-$posd.$sg both sky-$absl.$sg and sea<$absl.$sg>"
