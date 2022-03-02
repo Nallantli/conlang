@@ -141,5 +141,128 @@
 				]
 			}
 		]
+	},
+	{
+		"title": "Izē in Rahuomi",
+		"tphnt": "aluˈpɔskit͜sən̥",
+		"passages": [
+			{
+				"trns": "While the storm waged on for the surface of the sea, the area below was relatively calmer.",
+				"text": "Ne sisudā tauntēs otiznā ne pos masrit²en, tesm²ē ēquot²ī sār demī.",
+				"phnt": "ne ˈsisuðaː ˈtaʊ̯n̥tes oˈtɪt͜snaː ne pɔs ˈmɑsritən̥ ˈtɛsmeː ˈeːkʷotiː sar̥ deˈmiː",
+				"data": [
+					"ne   Ø-sisud-ā                   taunte<:>s       o-tizn-ā                  ne   pos-Ø-Ø                mas-rit²-en           tes-m²-ē              ēquot²-ī         sa<:>r                 demī",
+					"$loc $3sg.$t-continue-$npst.$ind storm<$absl.$sg> $refl.$t-scale-$npst.$ind $loc be_wide-$nmz-$posd.$sg sea-surface-$absl.$sg peace-$qual-$pst.$ind be_relative-$adv space_below<$absl.$sg> more"
+				]
+			},
+			{
+				"trns": "Scattered bolts of lightning drew the sandy refuse that had risen to the surface into pellets of glass.",
+				"text": "Modunē picuipemi seytera kelasudēn noctece sū rit²en sū on rahuomumi.",
+				"phnt": "ˈmoduneː pit͜ʃʊˈwipemi ˈsɛjtera keˈlasuðen̥ ˈnɔt͜ʃtet͜ʃe suː ˈritən̥ suː ɔn̥ raˈʋomumi",
+				"data": [
+					"Ø-modun-ē              picu-ip-e-mi                    seyt-er-a                 kela-sud-e-:n              noct-ec-a             sū   rit²-en           sū   on        rahuo-mu-mi",
+					"$3sg.$t-draw-$pst.$ind lightning-strike-$nmz-$absl.$pl scatter-$pass-$attr.$npst sand-remain-$nmz-$absl.$sg rise-$prf-$attr.$npst $all surface-$absl.$sg $all $subr.$sg glass-pellet-$absl.$pl"
+				]
+			},
+			{
+				"trns": "The glass, heavier than the water before it, sank and tumbled in the waves, molded into silvery fish that scattered deeper in fear of the storm.",
+				"text": "Sāpit²ē rahuōn, aihra tē alūn ne oate, in rapezē ne sisin; isuterē sū oltumi xōtōllem²a oseyta tūrrī demī salī tauntēs.",
+				"phnt": "ˈsaːpiteː raˈʋon̥ ˈaɪ̯ra teː aˈlun̥ ne ˈoate ɪn̥ ˈrapet͜seː ne ˈsisɪn̥ iˈsutereː suː ˈɔl̥tumi xoːˈtollema oˈsɛjta ˈturriː deˈmiː saˈliː ˈtaʊ̯n̥tes",
+				"data": [
+					"sāpit²-ē       rahuo-:n        aihr-a               tē        alu-:n          ne   o-ate-Ø                  in  rapez-ē          ne   sis-in         isut-er-ē            sū   oltu-mi        xō-tōll-em²-a                  o-seyt-a                     tūrr-ī       demī Ø-sal-ī           taunte<:>s",
+					"sink-$pst.$ind glass-$absl.$sg be_heavy-$attr.$npst more_than water-$absl.$sg $loc $refl.$t-front-$posd.$sg and tumble-$pst.$ind $loc wave-$absl.$pl mold-$pass-$pst.$ind $all fish-$absl.$pl silver-color-$qual-$attr.$npst $refl.$t-scatter-$attr.$npst be_deep-$adv more $3sg.$t-fear-$adv storm<$absl.$sg>"
+				]
+			},
+			{
+				"trns": "The black stone of the sky too was tossed about by the sea.",
+				"text": "Xerā mo mās missā meih on tīxallizen.",
+				"phnt": "ʃeˈraː mo mas ˈmɪssaː meɪ̯ ɔn̥ tiːˈʃɑllit͜sən̥",
+				"data": [
+					"x-er-ā                 mo   ma<:>s         Ø-miss-ā                meih on        tī-xall-iz-en",
+					"$caus-$pass-$npst.$ind $agt sea<$absl.$sg> $3sg.$t-jump-$npst.$ind too  $subr.$sg sky-be_black-stone-$absl.$sg"
+				]
+			},
+			{
+				"trns": "As it sank, the sea took pity on the stone, for it had once been made from her sand and smoothed the rough edges created so haphazardly by the winds.",
+				"text": "Akomat²ē, ne sāpit²ā izen, mās ko cēz tanrecā tinkoī tō kela rān in ixākseyē marrami pobum²a mezreca ān sapenilī mo rotosin.",
+				"phnt": "aˈkomateː ne ˈsaːpitaː ˈit͜sən̥ mas ko t͜ʃet͜s ˈtɑnret͜ʃaː ˈtɪŋ̥koiː toː ˈkela ran̥ ɪn iˈʃakseʝeː ˈmɑrrami ˈpobuma ˈmɛt͜sret͜ʃa an̥ saˈpeniliː mo ˈrotosɪn̥",
+				"data": [
+					"Ø-akomat²-ē                 ne   sāpit²-ā        iz-en           ma<:>s         ko     cēz-Ø            tan-r-ec-ā                 tinkoī tō   kela-Ø         ra-:n         in  i-xāks-ey-ē                       marra-mi       pobum²-a             mez-r-ec-a                    ān        sapenil-ī        mo   rotos-in",
+					"$3sg.$t-take_pity-$pst.$ind $loc sink-$npst.$ind stone-$absl.$sg sea<$absl.$sg> $instr reason-$posd.$sg make-$pass-$prf-$npst.$ind once   $abl sand-$posd.$sg she-$absl.$sg and $3pl.$t-be_smooth-$caus-$pst.$ind edge-$absl.$pl be_rough-$npst.$attr create-$pass-$prf-$npst.$attr like_this be_careless-$adv $agt wind-$absl.$pl"
+				]
+			},
+			{
+				"trns": "Some glass that had not yet turned into fish molded with the still hot stone, becoming etched like scales onto its body.",
+				"text": "Itlūnrē tōlin rahuomi eh²lata īs sū oltumi suloī ya izen kum²a antuē, totozrelatē ko ser bisesin sū izranās.",
+				"data": [
+					"itlūn-r-ē               tōlin rahuo-mi        eh²lat-a           īs   sū   oltu-mi        suloī ya   iz-en           kum²-a             antuē totoz-re-lat-ē              ko     ser-Ø         bises-in        sū   iz-rana<:>s",
+					"combine-$pass-$pst.$ind some  glass-$absl.$pl become-$attr.$npst $neg $all fish-$absl.$pl yet   $dat stone-$absl.$sg be_hot-$attr.$npst still etch-$pass-become-$pst.$ind $instr way-$posd.$sg scale-$absl.$pl $all stone-body<$absl.$sg>"
+				]
+			},
+			{
+				"trns": "The stone finally eroded into the shape of a great serpent as the years of storm passed onward.",
+				"text": "Oandequē izen rah²m²ī sū istatūn t²a nuzhuatān ne aldā ān moron tauntēs.",
+				"data": [
+					"o-andequ-ē               iz-en           rah²m²-ī      sū   istatu-:n       t²-a             nuz-huata-:n           ne   ald-ā              ān        mor<o>n         taunte<:>s",
+					"$refl.$t-erode-$pst.$ind stone-$absl.$sg be_final-$adv $all shape-$absl.$sg $cop-$attr.$npst be_big-snake-$absl.$sg $loc pass_by-$ind.$npst like_this year<$posd.$pl> storm<$absl.$sg>"
+				]
+			},
+			{
+				"trns": "The great serpent was cursed by the wind by which it had been made, and unlike for the fish that swam before it, the water was poisonous to breath.",
+				"text": "Secrē on nuzhuatān mo rotōs mo-tanreca, in sīhasm²ē īs-ko ser t²ā ya oltumi dole ne aten alūn ya tokā.",
+				"data": [
+					"sec-r-ē               on        nuz-huata-:n           mo   roto<:>s       mo=tan-r-ec-a                    in  sīhas-m²-ē             īs=ko       ser-Ø         t²-ā            ya   oltu-mi        dol-e           ne   at-en            alu-:n          ya   Ø-tok-ā",
+					"curse-$pass-$pst.$ind $subr.$sg be_big-snake-$absl.$sg $agt wind-$absl.$sg $agt=make-$pass-$prf-$attr.$npst and poison-$qual-$pst.$ind $neg=$instr way-$posd.$sg $cop-$ind.$npst $dat fish-$absl.$pl swim-$attr.$pst $loc before-$absl.$sg water-$absl.$sg $dat $3sg.$t-breathe-$npst.$ind"
+				]
+			},
+			{
+				"trns": "He was forced to breach the surface - and though fortunately the storm had begun to fade by this time - he could never return to the deep.",
+				"text": "Xerā alen huelquā sū rit²en - aldowcē inquē zīasi kem²ī tauntēs ne ten lōn - īs lem²asē alen sū tūrrēn sicē.",
+				"data": [
+					"Ø-x-er-ā                       al-en        huelqu-ā          sū   rit²-en           ald-ow-c-ē                inquē    zīasi    kem²-ī            taunte<:>s       ne   ten  lo-:n            īs   lem²-as-ē             al-en        sū   tūrr-e-:n              sicē",
+					"$3sg.$t-$caus-$pass-$npst.$ind he-$absl.$sg breach-$npst.$ind $all surface-$absl.$sg fade-start-$prf-$pst.$ind and_thus although be_fortunate-$adv storm<$absl.$sg> $loc this moment-$absl.$sg $neg return-$pot-$pst.$ind he-$absl.$sg $all be_deep-$nmz-$absl.$sg again"
+				]
+			},
+			{
+				"trns": "The great serpent swam into existence a great whirlpool, that sucked from the bottom of the ocean a mountain on which the he could lay down his land.",
+				"text": "Tanē nuzhuatān dolī sū sohīn eppalutlepōn nuza, in eppe tō sildurkotōn noctizen ne-pan²yasa alen omazū.",
+				"data": [
+					"Ø-tan-ē                nuz-huata-:n           dol-ī     sū   soh-i-:n               epp-alu-tlepo-:n          nuz-a              in  Ø-epp-e                 tō   sildur-koto-:n              noctiz-en          ne=Ø-pan²-y-as-a                             al-en        o-mazū-Ø",
+					"$3sg.$t-make-$pst.$ind be_big-snake-$absl.$sg swim-$adv $all exist-$abstr-$absl.$sg suck-water-ring-$absl.$sg be_big-$attr.$npst and $3sg.$t-suck-$attr.$pst $abl ocean-bottom_part-$absl.$sg mountain-$absl.$sg $loc=$3sg.$t-lie_down-$caus-$pot-$attr.$npst he-$absl.$sg $refl.$t-land-$posd.$sg"
+				]
+			},
+			{
+				"trns": "And so as the summit broke the surface of the water, the first island was made.",
+				"text": "Mezrē inquē ne picā akēx alurit²en kisren tineza.",
+				"data": [
+					"mez-r-ē              inquē    ne   Ø-pic-ā                  ake<:>x           alu-rit²-en             kisr-en          tin-ez-a",
+					"make-$pass-$pst.$ind and_thus $loc $3sg.$t-break-$npst.$ind summit<$absl.$sg> water-surface-$absl.$sg island-$absl.$sg one-$ord-$attr.$npst"
+				]
+			},
+			{
+				"trns": "The land was barren expanse of sand, and the great serpent breathed life into it, shedding his scales to plant the seeds of colorful flowers and grasses that would come to decorate his domain.",
+				"text": "T²ē mazūen kelakabūn norda, in tokē sū tīen nuzhuatān, inait²ī alen obiseus ya īhhuot²ā tezās somomi tōlleka in pexin mirkelatena dahzec alen.",
+				"data": [
+					"t²-ē           mazū-en        kela-kabu-:n                  nord-a               in  tok-ē             sū   tī-en          nuz-huata-:n           i-nait²-ī         al-en        o-bise<u>s                ya   ī-hhuot²-ā               teza-:s        somo-mi          tōllek-a                in  pex-in          Ø-mirk-elat-en-a                         dahzec-Ø         al-en",
+					"$cop-$pst.$ind land-$absl.$sg sand-untouched_land-$absl.$sg be_empty-$attr.$npst and breathe-$pst.$ind $all this-$absl.$sg be_big-snake-$absl.$sg $3pl.$t-shed-$adv he-$absl.$sg $refl.$t-scale<$posd.$pl> $dat $3pl.$t-plant-$npst.$ind seed-$posd.$pl flower-$absl.$pl be_colorful-$attr.$npst and grass-$absl.$pl $3sg.$t-decorate-become-$fut-$attr.$npst domain-$posd.$sg he-$absl.$sg"
+				]
+			},
+			{
+				"trns": "The scales grew and became the leaves of trees and petals of flowers, blossoming in the light of the now clear sky.",
+				"text": "Osahpē bisesin in yeh²latē muōlu siphuen in atat²u somomi; kukē ne rō tiyen narlateca nehloī.",
+				"data": [
+					"o-sahp-ē                bises-in        in  y-eh²lat-ē               muōl-u         siphu-en       in  atat²-u         somo-mi          kuk-ē             ne   rō-Ø            tiy-en        nar-lat-ec-a                     nehloī",
+					"$refl.$t-grow-$pst.$ind scale-$absl.$pl and $3pl.$t-become-$pst.$ind leaf-$posd.$pl tree-$absl.$sg and petal-$posd.$pl flower-$absl.$pl blossom-$pst.$ind $loc light-$posd.$sg sky-$absl.$sg be_clear-become-$prf-$attr.$npst now"
+				]
+			},
+			{
+				"trns": "When he saw his work as complete, he hoarded himself into his garden, vanishing from the view of both the sky and sea.",
+				"text": "Osūsakē ne em²ā alen kōh²recā os on et²ah² sū oihuot²elar; istlē tō em²i mer tiyen in mās.",
+				"data": [
+					"o-sū-sak-ē                   ne   Ø-em²-ā                al-en        kōh²-r-ec-ā                  os-Ø-Ø              on_et²ah² sū   o-ihuot²el<a>r             istl-ē           tō   em²-i-Ø              mer  tiy-en        in  ma<:>s",
+					"$refl.$t-$int-hide-$pst.$ind $loc $3sg.$t-see-$npst.$ind he-$absl.$sg finish-$pass-$prf-$npst.$ind work-$nmz-$posd.$sg $drefl    $all $refl.$t-garden<$posd.$sg> vanish-$pst.$ind $abl see-$abstr-$posd.$sg both sky-$absl.$sg and sea<$absl.$sg>"
+				]
+			}
+		]
 	}
 ]

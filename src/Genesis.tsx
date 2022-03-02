@@ -1,7 +1,8 @@
 import React from 'react';
 import { Gloss } from './Gloss';
 import genesis from './genesis.json';
-import { GlossTemplate } from "./Utils";
+import { GlossTemplate, transliterate } from "./Utils";
+import fontStyles from './fontStyle.module.css';
 import './default.scss';
 
 const fontStyleNames = [
@@ -12,13 +13,12 @@ const fontStyleNames = [
 	"FontEtlBlock",
 	"FontEtlAkataneen"
 ];
-
 export interface GenesisProps {
 	styles: any
 }
 
 export interface GenesisState {
-	hideGloss: boolean,
+	glossState: number,
 	fontOverrideIndex: number,
 }
 
@@ -34,33 +34,54 @@ export class Genesis extends React.Component<GenesisProps, GenesisState> {
 		super(props);
 
 		this.state = {
-			hideGloss: true,
+			glossState: 0,
 			fontOverrideIndex: 0
 		};
 	}
 	render() {
 		const { styles } = this.props;
-		const { hideGloss, fontOverrideIndex } = this.state;
+		const { glossState, fontOverrideIndex } = this.state;
 		const passagemap = genesis as PassageTemplate[];
 		return (<div className='App'>
 			<div className={styles.Content}>
 				{(genesis as PassageTemplate[]).map(({ title, tphnt, image, passages }) =>
-				(<div style={{display: 'grid'}}>
+				(<div>
 					<div className={styles.GenesisHeader}>
-						{title}
-						<div className={styles.GenesisHeaderIPA}>[{tphnt}]</div>
+						<span className={fontStyles[`${fontStyleNames[fontOverrideIndex]}Header`]}>
+							{fontOverrideIndex === 0 ? title.replace(/²/g, "") : transliterate(title)}
+						</span>
+						{glossState > 0 && <div className={styles.GenesisHeaderIPA}>[{tphnt}]</div>}
 					</div>
-					{image && <img className={styles.GenesisImage} src={process.env.PUBLIC_URL + `/${image}`} />}
-					<div>
-						{passages.map(data => (<Gloss fontOverride={fontStyleNames[fontOverrideIndex]} noLink={true} hideGloss={hideGloss} styles={styles} gloss={data} select={() => { }} />))}
+					<div style={{ display: "flex" }}>
+						{image && <img className={styles.GenesisImage} src={process.env.PUBLIC_URL + `/${image}`} />}
 					</div>
+					{glossState === 0 &&
+						<div className={styles.RawText}>
+							{passages.map((data, i) => (
+								<span className={fontStyles[fontStyleNames[fontOverrideIndex]]}>
+									<span className={styles.SectionNumber}>{i + 1}{' '}</span>
+									{fontOverrideIndex === 0 ? data.text.replace(/²/g, "") : transliterate(data.text)}
+									{' '}
+								</span>
+							))}
+						</div>}
+					{glossState === 1 &&
+						<div>
+							{passages.map(data => (<Gloss fontOverride={fontStyleNames[fontOverrideIndex]} noLink={true} hideGloss={true} styles={styles} gloss={data} select={() => { }} />))}
+						</div>
+					}
+					{glossState === 2 &&
+						<div>
+							{passages.map(data => (<Gloss fontOverride={fontStyleNames[fontOverrideIndex]} noLink={true} hideGloss={false} styles={styles} gloss={data} select={() => { }} />))}
+						</div>
+					}
 				</div>)
 				)}
 			</div>
 			<div className={styles.OptionsContainer}>
 				<button className={styles.TextButton}
-					onClick={() => this.setState(state => ({ hideGloss: !state.hideGloss }))}>
-					toggle gloss
+					onClick={() => this.setState(state => ({ glossState: (state.glossState + 1) % 3 }))}>
+					cycle gloss
 				</button>
 				<br />
 				<button className={styles.TextButton}
@@ -68,6 +89,6 @@ export class Genesis extends React.Component<GenesisProps, GenesisState> {
 					cycle font
 				</button>
 			</div>
-		</div>);
+		</div >);
 	}
 }

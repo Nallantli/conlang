@@ -51,3 +51,32 @@
 .FontLatin {
 	font-family: 'IBM Plex Serif', serif;
 }
+
+.FontEtlSerifHeader {
+	font-family: 'On Serwal';
+}
+
+.FontEtlSansHeader {
+	font-family: 'Serwal Sans';
+}
+
+.FontEtlGothicHeader {
+	font-family: 'Serwal Godika';
+	font-size: 40px;
+}
+
+.FontEtlBlockHeader {
+	font-family: 'Tozwanseer';
+	text-transform: lowercase;
+}
+
+.FontEtlAkataneenHeader {
+	font-family: 'Akataneen';
+	text-transform: lowercase;
+	font-size: 40px;
+	line-height: 30px;
+}
+
+.FontLatinHeader {
+	font-family: 'IBM Plex Serif', serif;
+}
